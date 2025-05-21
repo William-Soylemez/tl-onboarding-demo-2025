@@ -1,0 +1,1752 @@
+[
+    {
+        "title": "The Shawshank Redemption",
+        "description": "Wrongfully convicted of murder, Andy Dufresne is sent to Shawshank Prison, where he forms a lasting friendship with fellow inmate Red. Over the years, he quietly engineers one of the most daring escapes in cinematic history, all while preserving hope in a place designed to destroy it.",
+        "id": 0,
+        "year": "1994",
+        "poster": "https://image.tmdb.org/t/p/original/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg"
+    },
+    {
+        "title": "The Godfather",
+        "description": "When aging patriarch Vito Corleone is targeted by rival gangs, his reluctant son Michael is drawn into the family's criminal empire. As Michael becomes more deeply involved, he transforms from outsider to ruthless leader, shaping the fate of the Corleone legacy.",
+        "id": 1,
+        "year": "1972",
+        "poster": "https://image.tmdb.org/t/p/original/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+    },
+    {
+        "title": "The Dark Knight",
+        "description": "Gotham's vigilante protector faces chaos unleashed by the Joker, a criminal mastermind who challenges the very idea of justice. As Batman struggles to stop him, he must confront the ethical limits of his crusade and the fine line between hero and villain.",
+        "id": 2,
+        "year": "2008",
+        "poster": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+    },
+    {
+        "title": "The Godfather Part II",
+        "description": "This sweeping sequel tells two parallel stories: Michael Corleone's descent into corruption as he leads the family business, and a young Vito Corleone's rise from immigrant to mafia don. Together, they paint a haunting portrait of power, betrayal, and legacy.",
+        "id": 3,
+        "year": "1974",
+        "poster": "https://image.tmdb.org/t/p/original/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg"
+    },
+    {
+        "title": "12 Angry Men",
+        "description": "A seemingly open-and-shut murder trial becomes a tense moral debate when one juror questions the evidence. Through intense deliberations, the jury confronts their biases and preconceptions, revealing the fragile nature of justice and truth.",
+        "id": 4,
+        "year": "1957",
+        "poster": "https://image.tmdb.org/t/p/original/ow3wq89wM8qd5X7hWKxiRfsFf9C.jpg"
+    },
+    {
+        "title": "The Lord of the Rings: The Return of the King",
+        "description": "As Frodo and Sam inch closer to Mount Doom with the One Ring, the forces of good prepare for a climactic battle against Sauron's army. Friendships are tested, sacrifices are made, and the fate of Middle-earth hangs in the balance.",
+        "id": 5,
+        "year": "2003",
+        "poster": "https://image.tmdb.org/t/p/original/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
+    },
+    {
+        "title": "Schindler's List",
+        "description": "Oskar Schindler, a German industrialist and member of the Nazi Party, gradually becomes an unlikely hero by saving over a thousand Jews from the Holocaust. Based on true events, the film is a stark, emotional portrayal of humanity amidst horror.",
+        "id": 6,
+        "year": "1993",
+        "poster": "https://image.tmdb.org/t/p/original/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg"
+    },
+    {
+        "title": "Pulp Fiction",
+        "description": "A bold, nonlinear narrative interweaves stories of gangsters, a boxer, and a pair of diner robbers in a stylish, violent, and darkly funny vision of Los Angeles. With sharp dialogue and unforgettable scenes, it redefined modern storytelling in cinema.",
+        "id": 7,
+        "year": "1994",
+        "poster": "https://image.tmdb.org/t/p/original/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
+    },
+    {
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "description": "A humble hobbit named Frodo inherits a powerful and dangerous ring, setting out with a fellowship of allies to destroy it. Their journey across Middle-earth is filled with peril, ancient evils, and tests of loyalty.",
+        "id": 8,
+        "year": "2001",
+        "poster": "https://image.tmdb.org/t/p/original/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+    },
+    {
+        "title": "The Good, the Bad and the Ugly",
+        "description": "During the Civil War, three gunslingers form uneasy alliances and double-cross one another in pursuit of buried Confederate gold. With sweeping landscapes and a legendary score, it's a defining masterpiece of the spaghetti western genre.",
+        "id": 9,
+        "year": "1966",
+        "poster": "https://image.tmdb.org/t/p/original/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg"
+    },
+    {
+        "title": "Forrest Gump",
+        "description": "A kind-hearted man with a low IQ unwittingly influences major moments in American history as he searches for love and meaning. His journey is a touching blend of humor, tragedy, and resilience, told with warmth and nostalgia.",
+        "id": 10,
+        "year": "1994",
+        "poster": "https://image.tmdb.org/t/p/original/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg"
+    },
+    {
+        "title": "The Lord of the Rings: The Two Towers",
+        "description": "The fellowship is broken, but the quest to destroy the One Ring continues. As Frodo and Sam journey deeper into enemy lands with the mysterious Gollum, the rest of the heroes rally the forces of Middle-earth for the battles ahead.",
+        "id": 11,
+        "year": "2002",
+        "poster": "https://image.tmdb.org/t/p/original/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg"
+    },
+    {
+        "title": "Fight Club",
+        "description": "A disillusioned office worker forms an underground fight club with a charismatic soap salesman, but their anarchic mission spirals into chaos. A dark exploration of identity, consumerism, and mental instability, it builds to a shocking revelation.",
+        "id": 12,
+        "year": "1999",
+        "poster": "https://image.tmdb.org/t/p/original/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
+    },
+    {
+        "title": "Inception",
+        "description": "A skilled thief who steals secrets through dreams is given a nearly impossible task: to plant an idea in someone's mind. As he and his team navigate layered dreamscapes, the line between reality and illusion begins to blur dangerously.",
+        "id": 13,
+        "year": "2010",
+        "poster": "https://image.tmdb.org/t/p/original/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg"
+    },
+    {
+        "title": "Star Wars: Episode V - The Empire Strikes Back",
+        "description": "The Rebel Alliance is on the run as Darth Vader tightens his grip on the galaxy. As Luke Skywalker trains with Yoda and learns a devastating secret, the battle between light and dark deepens in this darker chapter.",
+        "id": 14,
+        "year": "1980",
+        "poster": "https://image.tmdb.org/t/p/original/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg"
+    },
+    {
+        "title": "The Matrix",
+        "description": "A computer hacker discovers that the world he knows is a simulated reality controlled by machines. As he joins a rebellion to free humanity, he must embrace his role as \"The One\" in a mind-bending battle between illusion and truth.",
+        "id": 15,
+        "year": "1999",
+        "poster": "https://image.tmdb.org/t/p/original/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg"
+    },
+    {
+        "title": "Goodfellas",
+        "description": "Based on a true story, the film follows Henry Hill's rise through the ranks of the mob and his eventual downfall. With razor-sharp narration and visceral energy, it paints a gritty, seductive portrait of organized crime.",
+        "id": 16,
+        "year": "1990",
+        "poster": "https://image.tmdb.org/t/p/original/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg"
+    },
+    {
+        "title": "Interstellar",
+        "description": "As Earth faces environmental collapse, a group of astronauts embarks on a journey through a wormhole in search of a new home for humanity. Combining epic science fiction with emotional depth, it's a story about love, sacrifice, and survival.",
+        "id": 17,
+        "year": "2014",
+        "poster": "https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+    },
+    {
+        "title": "One Flew Over the Cuckoo's Nest",
+        "description": "A rebellious man fakes insanity to escape prison labor, only to clash with the oppressive regime of a psychiatric hospital. His defiance inspires the other patients, leading to both heartbreaking and uplifting consequences.",
+        "id": 18,
+        "year": "1975",
+        "poster": "https://image.tmdb.org/t/p/original/65TsQckNLdSDZZCm9WTgF0omCyr.jpg"
+    },
+    {
+        "title": "Se7en",
+        "description": "Two detectives hunt a serial killer who uses the seven deadly sins as a motif for his gruesome murders. The investigation leads them into a bleak, rain-soaked world and ends with one of the most haunting finales in thriller history.",
+        "id": 19,
+        "year": "1995",
+        "poster": "https://image.tmdb.org/t/p/original/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg"
+    },
+    {
+        "title": "It's a Wonderful Life",
+        "description": "A man on the brink of despair is shown what the world would be like if he had never been born. Through this journey, he realizes the profound impact of his life and the value of hope, kindness, and community.",
+        "id": 20,
+        "year": "1946",
+        "poster": "https://image.tmdb.org/t/p/original/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg"
+    },
+    {
+        "title": "The Silence of the Lambs",
+        "description": "A young FBI trainee seeks the help of imprisoned cannibal Dr. Hannibal Lecter to catch a serial killer. Their psychological game of cat and mouse creates a chilling and unforgettable study of manipulation and monstrosity.",
+        "id": 21,
+        "year": "1991",
+        "poster": "https://image.tmdb.org/t/p/original/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg"
+    },
+    {
+        "title": "Seven Samurai",
+        "description": "When a village is threatened by bandits, seven masterless samurai are hired to protect it. This epic tale of honor, sacrifice, and strategy is a cornerstone of world cinema and a template for countless ensemble action films.",
+        "id": 22,
+        "year": "1954",
+        "poster": "https://image.tmdb.org/t/p/original/8OKmBV5BUFzmozIC3pPWKHy17kx.jpg"
+    },
+    {
+        "title": "Saving Private Ryan",
+        "description": "After D-Day, a squad of soldiers is sent behind enemy lines to find and bring home a paratrooper whose brothers have all been killed in action. The film's brutal realism and emotional power highlight the human cost of war.",
+        "id": 23,
+        "year": "1998",
+        "poster": "https://image.tmdb.org/t/p/original/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg"
+    },
+    {
+        "title": "City of God",
+        "description": "Set in the slums of Rio de Janeiro, this gritty, fast-paced drama chronicles the lives of two boys who take diverging paths: one becomes a photographer, the other a drug lord. It's a raw, kinetic portrait of crime, poverty, and survival.",
+        "id": 24,
+        "year": "2002",
+        "poster": "https://image.tmdb.org/t/p/original/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg"
+    },
+    {
+        "title": "The Green Mile",
+        "description": "On death row in a Southern prison, a guard encounters an inmate with miraculous healing powers. As supernatural events unfold, the film becomes a moving meditation on justice, compassion, and redemption.",
+        "id": 25,
+        "year": "oste",
+        "poster": "https://image.tmdb.org/t/p/original/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg"
+    },
+    {
+        "title": "Life Is Beautiful",
+        "description": "A Jewish father uses humor and imagination to shield his son from the horrors of a Nazi concentration camp. Blending tragedy and whimsy, this deeply human story shows the enduring power of love and hope in the darkest times.",
+        "id": 26,
+        "year": "1997",
+        "poster": "https://image.tmdb.org/t/p/original/74hLDKjD5aGYOotO6esUVaeISa2.jpg"
+    },
+    {
+        "title": "Terminator 2: Judgment Day",
+        "description": "A reprogrammed Terminator returns to protect a young John Connor from a more advanced killing machine. Explosive action and groundbreaking effects meet a surprisingly emotional story about fate, sacrifice, and humanity.",
+        "id": 27,
+        "year": "1991",
+        "poster": "https://image.tmdb.org/t/p/original/5M0j0B18abtBI5gi2RhfjjurTqb.jpg"
+    },
+    {
+        "title": "Star Wars: Episode IV - A New Hope",
+        "description": "A young farm boy named Luke Skywalker joins a rebellion to defeat the tyrannical Empire. With the help of allies, he confronts the dark side and begins a hero's journey that launched a legendary saga.",
+        "id": 28,
+        "year": "1977",
+        "poster": "https://image.tmdb.org/t/p/original/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg"
+    },
+    {
+        "title": "Back to the Future",
+        "description": "Teenager Marty McFly is accidentally sent 30 years into the past, where he must ensure his parents fall in love to secure his own existence. Full of charm, wit, and sci-fi adventure, it's a timeless classic.",
+        "id": 29,
+        "year": "1985",
+        "poster": "https://image.tmdb.org/t/p/original/vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg"
+    },
+    {
+        "title": "Spirited Away",
+        "description": "A young girl is transported to a magical world of spirits and gods, where she must work in a bathhouse to free her parents. Studio Ghibli's masterpiece is a visually rich coming-of-age tale about identity, courage, and transformation.",
+        "id": 30,
+        "year": "2001",
+        "poster": "https://image.tmdb.org/t/p/original/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg"
+    },
+    {
+        "title": "The Pianist",
+        "description": "A Polish-Jewish pianist struggles to survive the Nazi occupation of Warsaw. Based on true events, the film is a harrowing yet restrained depiction of endurance and the sustaining power of art in the face of atrocity.",
+        "id": 31,
+        "year": "2002",
+        "poster": "https://image.tmdb.org/t/p/original/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg"
+    },
+    {
+        "title": "Gladiator",
+        "description": "A betrayed Roman general becomes a gladiator, seeking vengeance against the corrupt emperor who destroyed his family. Epic in scope and emotion, it's a tale of honor, loyalty, and the fight for justice in ancient Rome.",
+        "id": 32,
+        "year": "2000",
+        "poster": "https://image.tmdb.org/t/p/original/w0YjBWVfu689txEXZG3xa4Aev3i.jpg"
+    },
+    {
+        "title": "Parasite",
+        "description": "A poor family infiltrates the lives of a wealthy household, leading to an escalating series of deceptions and consequences. This genre-blending satire explores class, inequality, and the fragility of social order.",
+        "id": 33,
+        "year": "2019",
+        "poster": "https://image.tmdb.org/t/p/original/4DGPORlVIDIQvsuSDnM4uXKMjWS.jpg"
+    },
+    {
+        "title": "Psycho",
+        "description": "A secretary on the run checks into a remote motel run by the unsettling Norman Bates. Hitchcock's thriller revolutionized horror with its shocking twists and psychological depth, forever changing cinema.",
+        "id": 34,
+        "year": "1960",
+        "poster": "https://image.tmdb.org/t/p/original/tY0OLFUsTXdvNppTpnNc4EVYy2z.jpg"
+    },
+    {
+        "title": "The Lion King",
+        "description": "After the death of his father, young lion Simba must overcome guilt and exile to reclaim his place as king. With iconic music and sweeping storytelling, it's a powerful tale of legacy, loss, and redemption.",
+        "id": 35,
+        "year": "1994",
+        "poster": "https://image.tmdb.org/t/p/original/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg"
+    },
+    {
+        "title": "Grave of the Fireflies",
+        "description": "Two siblings struggle to survive in war-torn Japan during World War II. Haunting and deeply emotional, this animated film is a devastating exploration of innocence lost and the human cost of conflict.",
+        "id": 36,
+        "year": "1988",
+        "poster": "https://image.tmdb.org/t/p/original/im6u58cPa9HlH5DqSnZGy0O37l5.jpg"
+    },
+    {
+        "title": "The Departed",
+        "description": "An undercover cop infiltrates the mob while a mole rises within the police force, setting up a tense game of deception and betrayal. Scorsese's crime thriller is sharp, suspenseful, and packed with powerhouse performances.",
+        "id": 37,
+        "year": "2006",
+        "poster": "https://image.tmdb.org/t/p/original/nT97ifVT2J1yMQmeq20Qblg61T.jpg"
+    },
+    {
+        "title": "Whiplash",
+        "description": "A young jazz drummer faces psychological and physical torment under the tutelage of a ruthless music instructor. The film is a gripping exploration of ambition, obsession, and the cost of greatness.",
+        "id": 38,
+        "year": "2014",
+        "poster": "https://image.tmdb.org/t/p/original/7fn624j5lj3xTme2SgiLCeuedmO.jpg"
+    },
+    {
+        "title": "Harakiri",
+        "description": "In feudal Japan, a ronin requests to commit ritual suicide at a wealthy lord's estate, but his motives reveal a tragic tale of injustice. A powerful critique of samurai code and honor, it's a masterclass in restrained storytelling.",
+        "id": 39,
+        "year": "1962",
+        "poster": "https://image.tmdb.org/t/p/original/xDXMUdERs3uFtgO8P5J5WyWT554.jpg"
+    },
+    {
+        "title": "The Prestige",
+        "description": "Two rival magicians engage in a deadly competition to create the ultimate illusion, blurring the line between trickery and reality. Twisty and intelligent, it explores obsession, sacrifice, and the dark cost of greatness.",
+        "id": 40,
+        "year": "2006",
+        "poster": "https://image.tmdb.org/t/p/original/bdN3gXuIZYaJP7ftKK2sU0nPtEA.jpg"
+    },
+    {
+        "title": "American History X",
+        "description": "A former neo-Nazi reflects on his past and tries to prevent his younger brother from following the same path. The film is a raw, intense exploration of hate, change, and the potential for redemption.",
+        "id": 41,
+        "year": "1998",
+        "poster": "https://image.tmdb.org/t/p/original/euypWkaYFOLW3e5rLIcTAjWnhhT.jpg"
+    },
+    {
+        "title": "L\u00e9on: The Professional",
+        "description": "A lonely hitman forms an unexpected bond with a young girl after her family is murdered. As she seeks revenge and he confronts his own humanity, a strange but tender relationship develops.",
+        "id": 42,
+        "year": "1994",
+        "poster": "https://image.tmdb.org/t/p/original/yI6X2cCM5YPJtxMhUd3dPGqDAhw.jpg"
+    },
+    {
+        "title": "Spider-Man: Across the Spider-Verse",
+        "description": "Miles Morales returns in a visually dazzling multiverse adventure, encountering countless Spider-People while facing a threat that challenges his destiny. It's bold, emotional, and pushes the boundaries of animation.",
+        "id": 43,
+        "year": "2023",
+        "poster": "https://image.tmdb.org/t/p/original/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+    },
+    {
+        "title": "Casablanca",
+        "description": "In WWII-era Morocco, an American nightclub owner must choose between love and honor when his former flame reappears with her resistance-leader husband. Romantic and morally complex, it remains one of cinema's greatest classics.",
+        "id": 44,
+        "year": "1942",
+        "poster": "https://image.tmdb.org/t/p/original/oyGRZVIthHJjc98ekKpeWpDh8Ws.jpg"
+    },
+    {
+        "title": "The Usual Suspects",
+        "description": "A lineup of criminals becomes the starting point for a twisting tale of heists, betrayal, and the elusive Keyser S\u00f6ze. The film's clever structure and legendary ending redefined the modern crime thriller.",
+        "id": 45,
+        "year": "1995",
+        "poster": "https://image.tmdb.org/t/p/original/rWbsxdwF9qQzpTPCLmDfVnVqTK1.jpg"
+    },
+    {
+        "title": "The Intouchables",
+        "description": "After a wealthy quadriplegic hires a lively ex-convict as his caregiver, the two form a deep and unlikely friendship. Uplifting and humorous, it's a heartfelt story about connection across social boundaries.",
+        "id": 46,
+        "year": "2011",
+        "poster": "https://image.tmdb.org/t/p/original/rExJi4Byl4zwwjvZyOKO1TbGkPj.jpg"
+    },
+    {
+        "title": "Cinema Paradiso",
+        "description": "A filmmaker reflects on his childhood love of movies and the mentorship he received from a small-town projectionist. Poignant and nostalgic, it's a celebration of cinema's power to shape lives and memories.",
+        "id": 47,
+        "year": "1988",
+        "poster": "https://image.tmdb.org/t/p/original/gCI2AeMV4IHSewhJkzsur5MEp6R.jpg"
+    },
+    {
+        "title": "Alien",
+        "description": "The crew of a commercial spaceship encounters a deadly extraterrestrial lifeform after responding to a distress signal. Combining sci-fi and horror with atmospheric dread, it redefined the genre and introduced the iconic Xenomorph.",
+        "id": 48,
+        "year": "1979",
+        "poster": "https://image.tmdb.org/t/p/original/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
+    },
+    {
+        "title": "Modern Times",
+        "description": "Charlie Chaplin's Tramp struggles to survive in a rapidly industrializing world, navigating factory jobs, prisons, and poverty. A sharp yet heartfelt satire, it's a timeless critique of modern society and mechanization.",
+        "id": 49,
+        "year": "1936",
+        "poster": "https://image.tmdb.org/t/p/original/7uoiKOEjxBBW0AgDGQWrlfGQ90w.jpg"
+    },
+    {
+        "title": "Rear Window",
+        "description": "Confined to his apartment with a broken leg, a photographer becomes convinced he's witnessed a murder in a neighboring building. Hitchcock builds masterful suspense in this voyeuristic thriller about obsession and perception.",
+        "id": 50,
+        "year": "1954",
+        "poster": "https://image.tmdb.org/t/p/original/ILVF0eJxHMddjxeQhswFtpMtqx.jpg"
+    },
+    {
+        "title": "Once Upon a Time in the West",
+        "description": "A mysterious gunslinger and a ruthless outlaw become entangled in a land war over railroad expansion. With sweeping visuals and an unforgettable score, it's a meditative, epic take on the Western.",
+        "id": 51,
+        "year": "1968",
+        "poster": "https://image.tmdb.org/t/p/original/qbYgqOczabWNn2XKwgMtVrntD6P.jpg"
+    },
+    {
+        "title": "Django Unchained",
+        "description": "A freed slave teams up with a German bounty hunter to rescue his wife from a brutal plantation owner. Tarantino's revisionist Western mixes ultraviolence, dark humor, and social commentary with pulpy flair.",
+        "id": 52,
+        "year": "2012",
+        "poster": "https://image.tmdb.org/t/p/original/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg"
+    },
+    {
+        "title": "City Lights",
+        "description": "Chaplin's Tramp falls for a blind flower girl and tries to raise money for her sight-saving operation. This silent-era gem blends slapstick and pathos, showcasing cinema's power to move without words.",
+        "id": 53,
+        "year": "1931",
+        "poster": "https://image.tmdb.org/t/p/original/ugmakEL5y294I5bXgiBqApuZpwc.jpg"
+    },
+    {
+        "title": "Apocalypse Now",
+        "description": "A U.S. Army officer journeys deep into the Cambodian jungle during the Vietnam War to find and kill a rogue colonel. Haunting and surreal, it's a harrowing descent into madness and the darkness of war.",
+        "id": 54,
+        "year": "1979",
+        "poster": "https://image.tmdb.org/t/p/original/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg"
+    },
+    {
+        "title": "Dune: Part Two",
+        "description": "Paul Atreides embraces his destiny among the Fremen to rise against the empire that destroyed his family. Expanding the scale and emotional depth of the first film, it's a bold and visually arresting sci-fi epic.",
+        "id": 55,
+        "year": "2024",
+        "poster": "https://image.tmdb.org/t/p/original/czembW0Rk1Ke7lCJGahbOhdCuhV.jpg"
+    },
+    {
+        "title": "WALL\u00b7E",
+        "description": "In a future where Earth has been abandoned, a lonely robot finds purpose and love when he meets a sleek probe named EVE. Pixar's poignant tale of environmental decay and human resilience speaks volumes with minimal dialogue.",
+        "id": 56,
+        "year": "2008",
+        "poster": "https://image.tmdb.org/t/p/original/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg"
+    },
+    {
+        "title": "Memento",
+        "description": "A man with short-term memory loss hunts for his wife's killer using notes and tattoos to piece together clues. Told in reverse chronology, it's a mind-bending thriller that explores identity, memory, and truth.",
+        "id": 57,
+        "year": "2000",
+        "poster": "https://image.tmdb.org/t/p/original/fKTPH2WvH8nHTXeBYBVhawtRqtR.jpg"
+    },
+    {
+        "title": "Raiders of the Lost Ark",
+        "description": "Archaeologist Indiana Jones races Nazis to recover the biblical Ark of the Covenant. Packed with thrills, humor, and iconic set-pieces, it launched one of cinema's most beloved adventure franchises.",
+        "id": 58,
+        "year": "1981",
+        "poster": "https://image.tmdb.org/t/p/original/ceG9VzoRAVGwivFU403Wc3AHRys.jpg"
+    },
+    {
+        "title": "The Lives of Others",
+        "description": "In 1980s East Germany, a Stasi officer becomes emotionally entangled in the lives of the people he's assigned to surveil. A subtle and powerful portrait of surveillance, art, and the capacity for moral change.",
+        "id": 59,
+        "year": "2006",
+        "poster": "https://image.tmdb.org/t/p/original/cVUDMnskSc01rdbyH0tLATTJUdP.jpg"
+    },
+    {
+        "title": "Avengers: Infinity War",
+        "description": "The Avengers and their allies unite to stop Thanos, a cosmic warlord seeking to wipe out half of all life. With massive stakes and a shocking ending, it redefined the scope of the superhero genre.",
+        "id": 60,
+        "year": "2018",
+        "poster": "https://image.tmdb.org/t/p/original/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
+    },
+    {
+        "title": "Sunset Boulevard",
+        "description": "A down-on-his-luck screenwriter becomes entangled with a faded silent film star dreaming of a comeback. This noir classic is a biting critique of Hollywood's illusions and the price of fame.",
+        "id": 61,
+        "year": "1950",
+        "poster": "https://image.tmdb.org/t/p/original/sC4Dpmn87oz9AuxZ15Lmip0Ftgr.jpg"
+    },
+    {
+        "title": "Spider-Man: Into the Spider-Verse",
+        "description": "Teenager Miles Morales discovers a multiverse of Spider-People and learns what it truly means to be a hero. With groundbreaking animation and heart, it reinvents Spider-Man for a new generation.",
+        "id": 62,
+        "year": "2018",
+        "poster": "https://image.tmdb.org/t/p/original/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg"
+    },
+    {
+        "title": "Witness for the Prosecution",
+        "description": "A courtroom drama unfolds as a defense attorney takes on a murder case full of twists and conflicting testimonies. Based on Agatha Christie's story, it's a masterful blend of suspense and deception.",
+        "id": 63,
+        "year": "1957",
+        "poster": "https://image.tmdb.org/t/p/original/sreUg3pWJGL24C1qV4HZLxkbZD7.jpg"
+    },
+    {
+        "title": "Paths of Glory",
+        "description": "A French officer defends his soldiers accused of cowardice during WWI after a failed assault. Stanley Kubrick's antiwar film is a scathing critique of military injustice and the dehumanization of war.",
+        "id": 64,
+        "year": "1957",
+        "poster": "https://image.tmdb.org/t/p/original/tJXwtzOSNUC8dxJfrdvkNtGrrgW.jpg"
+    },
+    {
+        "title": "The Shining",
+        "description": "A family's stay in an isolated hotel descends into terror as the father is consumed by malevolent forces. Kubrick's psychological horror classic is haunting, ambiguous, and deeply unsettling.",
+        "id": 65,
+        "year": "1980",
+        "poster": "https://image.tmdb.org/t/p/original/xazWoLealQwEgqZ89MLZklLZD3k.jpg"
+    },
+    {
+        "title": "The Great Dictator",
+        "description": "Charlie Chaplin satirizes Hitler and fascism in this bold political comedy, culminating in a powerful call for peace and humanity. It's a landmark in cinematic courage and satire.",
+        "id": 66,
+        "year": "1940",
+        "poster": "https://image.tmdb.org/t/p/original/nhMXB8GTdswYMCL9nepDZymJCOr.jpg"
+    },
+    {
+        "title": "12th Fail",
+        "description": "Based on true events, this Indian drama follows a determined young man who overcomes systemic obstacles to succeed in one of the country's toughest civil service exams. It's an inspiring tale of perseverance and integrity.",
+        "id": 67,
+        "year": "2023",
+        "poster": "https://image.tmdb.org/t/p/original/eebUPRI4Z5e1Z7Hev4JZAwMIFkX.jpg"
+    },
+    {
+        "title": "Inglourious Basterds",
+        "description": "A group of Jewish-American soldiers and a French cinema owner plot to assassinate Nazi leaders. Tarantino rewrites history with violent flair, suspenseful storytelling, and darkly comic dialogue.",
+        "id": 68,
+        "year": "2009",
+        "poster": "https://image.tmdb.org/t/p/original/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg"
+    },
+    {
+        "title": "Aliens",
+        "description": "Ripley returns to the alien-infested colony she once escaped, this time leading a group of marines. Bigger and more action-packed than its predecessor, it's a rare sequel that matches and redefines the original.",
+        "id": 69,
+        "year": "1986",
+        "poster": "https://image.tmdb.org/t/p/original/r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg"
+    },
+    {
+        "title": "The Dark Knight Rises",
+        "description": "In the final chapter of Nolan's trilogy, a broken Bruce Wayne must rise again to protect Gotham from the merciless Bane. Epic in scale, it's a story of redemption, sacrifice, and legacy.",
+        "id": 70,
+        "year": "2012",
+        "poster": "https://image.tmdb.org/t/p/original/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg"
+    },
+    {
+        "title": "Coco",
+        "description": "A young boy journeys to the Land of the Dead to uncover his family's history and chase his musical dreams. With vibrant visuals and heartfelt themes, it's a moving celebration of memory, family, and tradition.",
+        "id": 71,
+        "year": "2017",
+        "poster": "https://image.tmdb.org/t/p/original/6Ryitt95xrO8KXuqRGm1fUuNwqF.jpg"
+    },
+    {
+        "title": "Amadeus",
+        "description": "Through the bitter eyes of rival composer Salieri, we witness the genius and tragic fall of Wolfgang Amadeus Mozart. Lavish, dramatic, and darkly humorous, it's a portrait of envy, artistry, and madness.",
+        "id": 72,
+        "year": "1984",
+        "poster": "https://image.tmdb.org/t/p/original/1n5VUlCqgmVax1adxGZm8oCFaKc.jpg"
+    },
+    {
+        "title": "Toy Story",
+        "description": "When a new toy threatens Woody's place as favorite, he and Buzz Lightyear embark on a journey of rivalry and friendship. The first fully computer-animated film launched a beloved franchise and redefined animation.",
+        "id": 73,
+        "year": "1995",
+        "poster": "https://image.tmdb.org/t/p/original/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg"
+    },
+    {
+        "title": "Avengers: Endgame",
+        "description": "The surviving heroes attempt to undo Thanos's devastation, leading to a climactic battle that reshapes the Marvel Universe. An epic conclusion to over a decade of storytelling, full of emotion, sacrifice, and heroism.",
+        "id": 74,
+        "year": "2019",
+        "poster": "https://image.tmdb.org/t/p/original/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg"
+    },
+    {
+        "title": "Good Will Hunting",
+        "description": "A gifted but troubled janitor at MIT is discovered for his mathematical genius, but needs help confronting his past. With heartfelt performances and a moving script, it's a story about healing, potential, and human connection.",
+        "id": 75,
+        "year": "1997",
+        "poster": "https://image.tmdb.org/t/p/original/z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg"
+    },
+    {
+        "title": "Oldboy",
+        "description": "After being mysteriously imprisoned for 15 years, a man is released and given five days to find his captor. This brutal, twist-filled revenge thriller from South Korea is a gripping exploration of trauma, guilt, and fate.",
+        "id": 76,
+        "year": "2003",
+        "poster": "https://image.tmdb.org/t/p/original/iX93YdBrZA1EpGbphmjf4ARj1Za.jpg"
+    },
+    {
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+        "description": "A mad general triggers a nuclear crisis, prompting a bizarre chain of events in the U.S. War Room. Stanley Kubrick's dark comedy brilliantly satirizes Cold War paranoia and military absurdity.",
+        "id": 77,
+        "year": "1964",
+        "poster": "https://image.tmdb.org/t/p/original/6x7MzQ6BOMlRzam1StcmPO9v61g.jpg"
+    },
+    {
+        "title": "Das Boot",
+        "description": "A harrowing look at life aboard a German U-boat during World War II, capturing the claustrophobia, tension, and psychological toll of war. It's one of the most intense and realistic submarine films ever made.",
+        "id": 78,
+        "year": "1981",
+        "poster": "https://image.tmdb.org/t/p/original/gHylSjrPIkxLIzJq3LobYdMN7N2.jpg"
+    },
+    {
+        "title": "Braveheart",
+        "description": "William Wallace leads a rebellion against English tyranny in 13th-century Scotland. With sweeping battles and emotional stakes, this epic tale of freedom and sacrifice remains a defining historical drama.",
+        "id": 79,
+        "year": "1995",
+        "poster": "https://image.tmdb.org/t/p/original/or1gBugydmjToAEq7OZY0owwFk.jpg"
+    },
+    {
+        "title": "American Beauty",
+        "description": "A disillusioned suburban father undergoes a personal awakening that disrupts his family and community. Darkly funny and haunting, the film dissects the emptiness behind the American dream.",
+        "id": 80,
+        "year": "1999",
+        "poster": "https://image.tmdb.org/t/p/original/wby9315QzVKdW9BonAefg8jGTTb.jpg"
+    },
+    {
+        "title": "Princess Mononoke",
+        "description": "A young warrior caught between forest gods and industrial humans tries to broker peace in a world at war with itself. Studio Ghibli's epic fable is a visually stunning meditation on nature, conflict, and coexistence.",
+        "id": 81,
+        "year": "1997",
+        "poster": "https://image.tmdb.org/t/p/original/cMYCDADoLKLbB83g4WnJegaZimC.jpg"
+    },
+    {
+        "title": "High and Low",
+        "description": "A wealthy executive must choose between personal ruin and a child's life after his chauffeur's son is kidnapped by mistake. Kurosawa's crime drama evolves into a gripping social commentary on class and justice.",
+        "id": 82,
+        "year": "1963",
+        "poster": "https://image.tmdb.org/t/p/original/tgNjemQPG96uIezpiUiXFcer5ga.jpg"
+    },
+    {
+        "title": "Your Name.",
+        "description": "Two teenagers mysteriously begin to switch bodies across time and space, forming a deep connection. This beautifully animated romance blends fantasy, fate, and emotion in a story of longing and cosmic coincidence.",
+        "id": 83,
+        "year": "2016",
+        "poster": "https://image.tmdb.org/t/p/original/8GJsy7w7frGquw1cy9jasOGNNI1.jpg"
+    },
+    {
+        "title": "3 Idiots",
+        "description": "Three friends navigate the pressures of India's competitive education system, challenging norms along the way. Both humorous and moving, it's a celebration of passion, friendship, and learning beyond grades.",
+        "id": 84,
+        "year": "2009",
+        "poster": "https://image.tmdb.org/t/p/original/66A9MqXOyVFCssoloscw79z8Tew.jpg"
+    },
+    {
+        "title": "Joker",
+        "description": "A mentally troubled man descends into madness and violence, becoming the infamous villain. Gritty and provocative, it's a disturbing character study that explores society's role in creating monsters.",
+        "id": 85,
+        "year": "2019",
+        "poster": "https://image.tmdb.org/t/p/original/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+    },
+    {
+        "title": "Once Upon a Time in America",
+        "description": "Spanning decades, this epic crime saga follows a group of Jewish gangsters from childhood to old age. Reflective and melancholic, it's a powerful story of friendship, betrayal, and the passage of time.",
+        "id": 86,
+        "year": "1984",
+        "poster": "https://image.tmdb.org/t/p/original/i0enkzsL5dPeneWnjl1fCWm6L7k.jpg"
+    },
+    {
+        "title": "Capernaum",
+        "description": "A young boy in Beirut sues his parents for bringing him into a life of suffering. Stark and emotionally wrenching, this Lebanese drama gives voice to the invisible and marginalized with raw honesty.",
+        "id": 87,
+        "year": "2018",
+        "poster": "https://image.tmdb.org/t/p/original/mFnfTVADj8yOxwzprYOmTPselk8.jpg"
+    },
+    {
+        "title": "Singin' in the Rain",
+        "description": "As Hollywood transitions from silent films to talkies, a trio of performers navigates change with song, dance, and laughter. This joyful musical is a love letter to cinema and one of the genre's greatest achievements.",
+        "id": 88,
+        "year": "1952",
+        "poster": "https://image.tmdb.org/t/p/original/w03EiJVHP8Un77boQeE7hg9DVdU.jpg"
+    },
+    {
+        "title": "Come and See",
+        "description": "A Belarusian boy's idealistic view of war is shattered as he witnesses the atrocities of a Nazi invasion. Visceral and harrowing, this Soviet antiwar film is a haunting depiction of innocence lost.",
+        "id": 89,
+        "year": "1985",
+        "poster": "https://image.tmdb.org/t/p/original/qNbMsKVzigERgJUbwf8pKyZogpb.jpg"
+    },
+    {
+        "title": "Requiem for a Dream",
+        "description": "The lives of four people unravel as they descend into different forms of addiction. With its relentless editing and powerful score, it's a nightmarish portrayal of hope corrupted and dreams destroyed.",
+        "id": 90,
+        "year": "2000",
+        "poster": "https://image.tmdb.org/t/p/original/nOd6vjEmzCT0k4VYqsA2hwyi87C.jpg"
+    },
+    {
+        "title": "The Chaos Class Failed the Class",
+        "description": "A group of mischievous students constantly tests the patience of their teachers in this beloved Turkish comedy. Lighthearted yet nostalgic, it captures the spirit of youth and rebellion in a school setting.",
+        "id": 91,
+        "year": "1975",
+        "poster": "https://image.tmdb.org/t/p/original/zMfsVXGxJy2xh0FwUWcZ1XXDZus.jpg"
+    },
+    {
+        "title": "Star Wars: Episode VI - Return of the Jedi",
+        "description": "Luke Skywalker confronts Darth Vader and the Emperor while the Rebels launch a final attack on the Empire. The saga concludes with redemption, victory, and the fall of tyranny.",
+        "id": 92,
+        "year": "1983",
+        "poster": "https://image.tmdb.org/t/p/original/jQYlydvHm3kUix1f8prMucrplhm.jpg"
+    },
+    {
+        "title": "Toy Story 3",
+        "description": "As Andy prepares to leave for college, Woody and the gang face an uncertain future in a daycare center. Emotional and thrilling, it's a moving finale about growing up and letting go.",
+        "id": 93,
+        "year": "2010",
+        "poster": "https://image.tmdb.org/t/p/original/AbbXspMOwdvwWZgVN0nabZq03Ec.jpg"
+    },
+    {
+        "title": "The Hunt",
+        "description": "A teacher's life is destroyed by a false accusation, leading to social ostracism and paranoia. Mads Mikkelsen delivers a powerful performance in this chilling drama about truth, hysteria, and justice.",
+        "id": 94,
+        "year": "2012",
+        "poster": "https://image.tmdb.org/t/p/original/wxPhn4ef1EAo5njxwBkAEVrlJJG.jpg"
+    },
+    {
+        "title": "Ikiru",
+        "description": "Diagnosed with terminal cancer, a bureaucrat searches for meaning by trying to leave a lasting legacy. Kurosawa's deeply human story is a profound meditation on life, mortality, and purpose.",
+        "id": 95,
+        "year": "1952",
+        "poster": "https://image.tmdb.org/t/p/original/gIZUUOsVkJ95CWv3N6uXWnuCRUO.jpg"
+    },
+    {
+        "title": "Eternal Sunshine of the Spotless Mind",
+        "description": "After a painful breakup, a man undergoes a procedure to erase memories of his former lover\u2014only to regret it as they disappear. Surreal and emotionally raw, it explores love, memory, and the self.",
+        "id": 96,
+        "year": "2004",
+        "poster": "https://image.tmdb.org/t/p/original/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg"
+    },
+    {
+        "title": "2001: A Space Odyssey",
+        "description": "From prehistoric man to space exploration and artificial intelligence, this sci-fi odyssey explores human evolution and cosmic mystery. Visually groundbreaking and philosophically rich, it remains a landmark in cinema.",
+        "id": 97,
+        "year": "1968",
+        "poster": "https://image.tmdb.org/t/p/original/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg"
+    },
+    {
+        "title": "Incendies",
+        "description": "After their mother's death, twins uncover a haunting family history that takes them from Canada to the Middle East. This emotionally intense mystery unravels layers of war, identity, and forgiveness with devastating impact.",
+        "id": 98,
+        "year": "2010",
+        "poster": "https://image.tmdb.org/t/p/original/yH6DAQVgbyj72S66gN4WWVoTjuf.jpg"
+    },
+    {
+        "title": "Reservoir Dogs",
+        "description": "A botched diamond heist leads to suspicion and bloodshed as the criminals realize one of them is an undercover cop. Tarantino's debut is a stylish, dialogue-driven thriller that reshaped the crime genre.",
+        "id": 99,
+        "year": "1992",
+        "poster": "https://image.tmdb.org/t/p/original/xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg"
+    },
+    {
+        "title": "The Apartment",
+        "description": "An office worker lets executives use his apartment for affairs, but complications arise when he falls for his boss's mistress. Both sharp and tender, it's a classic blend of romance, comedy, and social critique.",
+        "id": 100,
+        "year": "1960",
+        "poster": "https://image.tmdb.org/t/p/original/hhSRt1KKfRT0yEhEtRW3qp31JFU.jpg"
+    },
+    {
+        "title": "Lawrence of Arabia",
+        "description": "The life of T.E. Lawrence unfolds as he unites Arab tribes during World War I. Sweeping in scope and visuals, it's a grand exploration of heroism, identity, and imperialism.",
+        "id": 101,
+        "year": "1962",
+        "poster": "https://image.tmdb.org/t/p/original/AiAm0EtDvyGqNpVoieRw4u65vD1.jpg"
+    },
+    {
+        "title": "Scarface",
+        "description": "A Cuban immigrant rises through the Miami drug underworld, consumed by ambition and violence. Al Pacino's explosive performance anchors this brutal portrait of power and self-destruction.",
+        "id": 102,
+        "year": "1983",
+        "poster": "https://image.tmdb.org/t/p/original/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg"
+    },
+    {
+        "title": "Double Indemnity",
+        "description": "A bored insurance salesman is seduced into a murder-for-money plot by a cunning femme fatale. A cornerstone of film noir, it's a taut tale of greed, betrayal, and doomed desire.",
+        "id": 103,
+        "year": "1944",
+        "poster": "https://image.tmdb.org/t/p/original/qsXRfLELPxBo3T4osRSc4YijHlt.jpg"
+    },
+    {
+        "title": "Heat",
+        "description": "A master thief and a relentless detective face off in Los Angeles as their lives mirror one another. With intense action and psychological depth, it's a gripping crime saga about obsession and honor.",
+        "id": 104,
+        "year": "1995",
+        "poster": "https://image.tmdb.org/t/p/original/umSVjVdbVwtx5ryCA2QXL44Durm.jpg"
+    },
+    {
+        "title": "North by Northwest",
+        "description": "A man is mistaken for a government agent and pursued across the country in a whirlwind of espionage and suspense. Hitchcock's thriller blends action, mystery, and iconic set pieces with wit and tension.",
+        "id": 105,
+        "year": "1959",
+        "poster": "https://image.tmdb.org/t/p/original/kNOFPQrel9YFCVzI0DF8FnCEpCw.jpg"
+    },
+    {
+        "title": "Up",
+        "description": "An elderly widower fulfills his dream of adventure by floating his house to South America, accidentally bringing a young boy along. Pixar's emotional and imaginative journey celebrates loss, discovery, and unlikely friendships.",
+        "id": 106,
+        "year": "2009",
+        "poster": "https://image.tmdb.org/t/p/original/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg"
+    },
+    {
+        "title": "Citizen Kane",
+        "description": "A journalist investigates the life of a powerful tycoon through the mystery of his final word: \u201cRosebud.\u201d Widely regarded as one of the greatest films ever made, it's a pioneering exploration of memory, power, and legacy.",
+        "id": 107,
+        "year": "1941",
+        "poster": "https://image.tmdb.org/t/p/original/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg"
+    },
+    {
+        "title": "M",
+        "description": "A city descends into fear as police and criminals alike hunt a serial killer who targets children. Fritz Lang's chilling classic blends expressionism and realism in one of the earliest psychological thrillers.",
+        "id": 108,
+        "year": "1931",
+        "poster": "https://image.tmdb.org/t/p/original/rESIobLEipch59C8Qr0tRXufHYX.jpg"
+    },
+    {
+        "title": "Full Metal Jacket",
+        "description": "From boot camp to battlefield, U.S. Marines are shaped by the brutal machinery of the Vietnam War. Kubrick's war film is both stark and surreal, exposing the dehumanizing effects of conflict.",
+        "id": 109,
+        "year": "1987",
+        "poster": "https://image.tmdb.org/t/p/original/kMKyx1k8hWWscYFnPbnxxN4Eqo4.jpg"
+    },
+    {
+        "title": "Vertigo",
+        "description": "A retired detective becomes obsessed with a woman he's been hired to follow, spiraling into illusion and fixation. Hitchcock's haunting masterpiece explores identity, guilt, and the destructive nature of obsession.",
+        "id": 110,
+        "year": "1958",
+        "poster": "https://image.tmdb.org/t/p/original/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg"
+    },
+    {
+        "title": "Am\u00e9lie",
+        "description": "A whimsical young woman in Paris decides to change the lives of those around her for the better. Rich in charm and visual flair, it's a heartwarming story about kindness, connection, and finding joy in the everyday.",
+        "id": 111,
+        "year": "2001",
+        "poster": "https://image.tmdb.org/t/p/original/oTKduWL2tpIKEmkAqF4mFEAWAsv.jpg"
+    },
+    {
+        "title": "A Separation",
+        "description": "An Iranian couple's divorce sets off a chain of events involving class, religion, and justice. With moral complexity and raw emotion, this drama offers a powerful look at personal and societal conflicts.",
+        "id": 112,
+        "year": "2011",
+        "poster": "https://image.tmdb.org/t/p/original/fmngHGvRYC9wT3nEFOcVsXGp9pH.jpg"
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "description": "A lawyer defends a Black man falsely accused of rape in the racially charged American South, seen through the eyes of his daughter. A moving and timeless portrait of justice, empathy, and innocence.",
+        "id": 113,
+        "year": "1962",
+        "poster": "https://image.tmdb.org/t/p/original/gZycFUMLx2110dzK3nBNai7gfpM.jpg"
+    },
+    {
+        "title": "Like Stars on Earth",
+        "description": "A dyslexic child struggles in a rigid school system until a compassionate teacher helps him discover his true potential. Uplifting and deeply human, it celebrates creativity, understanding, and the uniqueness of every child.",
+        "id": 114,
+        "year": "2007",
+        "poster": "https://image.tmdb.org/t/p/original/puHRt6Raovm5ujGCdwLWvRv4NHU.jpg"
+    },
+    {
+        "title": "A Clockwork Orange",
+        "description": "In a dystopian future, a violent delinquent undergoes psychological conditioning to curb his behavior. Kubrick's disturbing adaptation critiques free will, authority, and moral manipulation.",
+        "id": 115,
+        "year": "1971",
+        "poster": "https://image.tmdb.org/t/p/original/4sHeTAp65WrSSuc05nRBKddhBxO.jpg"
+    },
+    {
+        "title": "Die Hard",
+        "description": "A New York cop battles terrorists who've taken over a Los Angeles skyscraper during Christmas. With its sharp pacing and iconic action, it redefined the modern action hero and spawned a franchise.",
+        "id": 116,
+        "year": "1988",
+        "poster": "https://image.tmdb.org/t/p/original/aJCpHDC6RoGz7d1Fzayl019xnxX.jpg"
+    },
+    {
+        "title": "The Sting",
+        "description": "Two con artists team up to pull off an elaborate con against a mob boss in Depression-era America. Clever, stylish, and full of twists, it's a joyous caper built on wit and deception.",
+        "id": 117,
+        "year": "1973",
+        "poster": "https://image.tmdb.org/t/p/original/ckmYng37zey8INYf6d10cVgIG93.jpg"
+    },
+    {
+        "title": "Indiana Jones and the Last Crusade",
+        "description": "Indy teams up with his estranged father to search for the Holy Grail before the Nazis can claim it. Blending adventure, humor, and heart, it's a thrilling chapter in the beloved franchise.",
+        "id": 118,
+        "year": "1989",
+        "poster": "https://image.tmdb.org/t/p/original/sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg"
+    },
+    {
+        "title": "Oppenheimer",
+        "description": "The story of J. Robert Oppenheimer's role in the creation of the atomic bomb and the moral dilemmas that followed. Nolan's sweeping biopic combines scientific ambition with personal and political consequences on a world-altering scale.",
+        "id": 119,
+        "year": "2023",
+        "poster": "https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+    },
+    {
+        "title": "Metropolis",
+        "description": "In a futuristic city divided by class, a privileged man discovers the suffering of workers and joins a movement for change. This silent-era landmark blends visionary visuals with social commentary on industry, power, and humanity.",
+        "id": 120,
+        "year": "1927",
+        "poster": "https://image.tmdb.org/t/p/original/vZIJxGnjcswPCAa52jhbl01FQkV.jpg"
+    },
+    {
+        "title": "Snatch",
+        "description": "A diamond heist, underground boxing, and a cast of eccentric criminals collide in this fast-paced British crime comedy. Guy Ritchie's razor-sharp editing and chaotic storytelling make it both stylish and wildly entertaining.",
+        "id": 121,
+        "year": "2000",
+        "poster": "https://image.tmdb.org/t/p/original/8KSDI7ijEv7QVZdIyrLw5Gnhhr8.jpg"
+    },
+    {
+        "title": "1917",
+        "description": "Two British soldiers must cross enemy lines to deliver a message that could save hundreds of lives during World War I. Told in what appears to be a single continuous shot, it's an immersive and visceral war experience.",
+        "id": 122,
+        "year": "2019",
+        "poster": "https://image.tmdb.org/t/p/original/iZf0KyrE25z1sage4SYFLCCrMi9.jpg"
+    },
+    {
+        "title": "L.A. Confidential",
+        "description": "In 1950s Los Angeles, three very different cops uncover corruption and scandal in the LAPD. Slick, complex, and noir to its core, it's a gripping tale of ambition, morality, and power.",
+        "id": 123,
+        "year": "1997",
+        "poster": "https://image.tmdb.org/t/p/original/lWCgf5sD5FpMljjpkRhcC8pXcch.jpg"
+    },
+    {
+        "title": "Bicycle Thieves",
+        "description": "A poor man's bicycle is stolen, sending him and his son on a desperate search through post-war Rome. Heartbreaking and profoundly human, it's a neorealist masterpiece about dignity and survival.",
+        "id": 124,
+        "year": "1948",
+        "poster": "https://image.tmdb.org/t/p/original/abmxGiCV04NQj4jngbSQTGLgiC1.jpg"
+    },
+    {
+        "title": "Downfall",
+        "description": "In the final days of WWII, Adolf Hitler and his inner circle face the collapse of the Third Reich from a Berlin bunker. A chilling, humanized depiction of tyranny's end, anchored by Bruno Ganz's intense performance.",
+        "id": 125,
+        "year": "2004",
+        "poster": "https://image.tmdb.org/t/p/original/nybZHYa8MvlQWchFwlGWGxDMprO.jpg"
+    },
+    {
+        "title": "Dangal",
+        "description": "A former wrestler trains his daughters to become champions in a male-dominated sport, challenging societal norms in rural India. Based on a true story, it's an inspiring tale of perseverance, family, and empowerment.",
+        "id": 126,
+        "year": "2016",
+        "poster": "https://image.tmdb.org/t/p/original/cJRPOLEexI7qp2DKtFfCh7YaaUG.jpg"
+    },
+    {
+        "title": "The Wolf of Wall Street",
+        "description": "Jordan Belfort rises from penny stocks to financial infamy, indulging in drugs, excess, and fraud. Scorsese's wild, fast-talking satire captures the insanity of unchecked greed with energetic flair.",
+        "id": 127,
+        "year": "2013",
+        "poster": "https://image.tmdb.org/t/p/original/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg"
+    },
+    {
+        "title": "Hamilton",
+        "description": "This hip-hop-infused musical tells the story of American founding father Alexander Hamilton. With innovative staging and powerful performances, it reimagines history through a modern lens of race, legacy, and revolution.",
+        "id": 128,
+        "year": "2020",
+        "poster": "https://image.tmdb.org/t/p/original/h1B7tW0t399VDjAcWJh8m87469b.jpg"
+    },
+    {
+        "title": "Taxi Driver",
+        "description": "A mentally unstable veteran becomes increasingly isolated and violent while navigating the grim streets of New York City. Scorsese's psychological drama explores loneliness, urban decay, and moral disintegration.",
+        "id": 129,
+        "year": "1976",
+        "poster": "https://image.tmdb.org/t/p/original/ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+    },
+    {
+        "title": "Green Book",
+        "description": "An African-American pianist and his working-class Italian-American driver form an unlikely bond during a concert tour in the segregated South. Based on a true story, it's a feel-good road trip with themes of friendship and tolerance.",
+        "id": 130,
+        "year": "2018",
+        "poster": "https://image.tmdb.org/t/p/original/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg"
+    },
+    {
+        "title": "Batman Begins",
+        "description": "After years of training and inner conflict, Bruce Wayne returns to Gotham to become the masked vigilante Batman. Grounded, gritty, and emotionally rich, it redefined the superhero origin story.",
+        "id": 131,
+        "year": "2005",
+        "poster": "https://image.tmdb.org/t/p/original/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg"
+    },
+    {
+        "title": "For a Few Dollars More",
+        "description": "Two bounty hunters with very different motives pursue the same ruthless outlaw across the American West. A stylish and tense spaghetti western, it blends moral ambiguity with unforgettable showdowns.",
+        "id": 132,
+        "year": "1965",
+        "poster": "https://image.tmdb.org/t/p/original/ooqASvA7qxlTVKL3KwOzBwy57Dh.jpg"
+    },
+    {
+        "title": "The Truman Show",
+        "description": "A man slowly discovers that his entire life has been a televised illusion, orchestrated for the entertainment of others. A clever and touching critique of media, privacy, and identity.",
+        "id": 133,
+        "year": "1998",
+        "poster": "https://image.tmdb.org/t/p/original/vuza0WqY239yBXOadKlGwJsZJFE.jpg"
+    },
+    {
+        "title": "Judgment at Nuremberg",
+        "description": "After WWII, American judges preside over the trials of Nazi officials accused of war crimes. A powerful courtroom drama that confronts justice, accountability, and the moral weight of history.",
+        "id": 134,
+        "year": "1961",
+        "poster": "https://image.tmdb.org/t/p/original/b6vYatvui1EXeFYfpDX4rcbueuP.jpg"
+    },
+    {
+        "title": "Some Like It Hot",
+        "description": "Two musicians disguise themselves as women to hide from mobsters and join an all-female band. Billy Wilder's classic comedy mixes wit, romance, and farce with timeless charm and gender-bending humor.",
+        "id": 135,
+        "year": "1959",
+        "poster": "https://image.tmdb.org/t/p/original/cRSAmX8AWVWLyNgfcWV02iRLnl4.jpg"
+    },
+    {
+        "title": "Shutter Island",
+        "description": "A U.S. Marshal investigates a psychiatric facility on a remote island, only to uncover shocking truths about himself and the institution. A haunting psychological thriller with a masterful twist.",
+        "id": 136,
+        "year": "2010",
+        "poster": "https://image.tmdb.org/t/p/original/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg"
+    },
+    {
+        "title": "The Kid",
+        "description": "Charlie Chaplin's Tramp takes in an abandoned child, and together they form a bond of love and survival. Equal parts funny and touching, it's a silent classic that blends comedy with social realism.",
+        "id": 137,
+        "year": "1921",
+        "poster": "https://image.tmdb.org/t/p/original/kMRZhiF08nDiO5aRb81Np5a4d6p.jpg"
+    },
+    {
+        "title": "The Father",
+        "description": "A man struggles with dementia as his reality becomes increasingly fractured, seen through his disoriented perspective. Heartbreaking and immersive, the film offers a profound look at aging, memory, and loss.",
+        "id": 138,
+        "year": "2020",
+        "poster": "https://image.tmdb.org/t/p/original/xxHNaCMycynHMKdEZHHQCzaPbZl.jpg"
+    },
+    {
+        "title": "All About Eve",
+        "description": "A seemingly innocent young actress schemes her way into the life and spotlight of an aging Broadway star. This sharp and sophisticated drama explores ambition, fame, and the ruthless nature of show business.",
+        "id": 139,
+        "year": "1950",
+        "poster": "https://image.tmdb.org/t/p/original/qU5QzNDrsusmuqKW6FsSvHYoIEQ.jpg"
+    },
+    {
+        "title": "Jurassic Park",
+        "description": "Scientists clone dinosaurs to create a theme park, but nature quickly proves uncontrollable. Spielberg's groundbreaking adventure combines thrilling spectacle with cautionary science fiction.",
+        "id": 140,
+        "year": "1993",
+        "poster": "https://image.tmdb.org/t/p/original/fjTU1Bgh3KJu4aatZil3sofR2zC.jpg"
+    },
+    {
+        "title": "There Will Be Blood",
+        "description": "A ruthless oilman rises to power in early 20th-century America, consumed by greed, pride, and rivalry. With towering performances and haunting atmosphere, it's a searing portrait of ambition and moral decay.",
+        "id": 141,
+        "year": "2007",
+        "poster": "https://image.tmdb.org/t/p/original/fa0RDkAlCec0STeMNAhPaF89q6U.jpg"
+    },
+    {
+        "title": "The Sixth Sense",
+        "description": "A young boy who can see and speak to the dead forms a bond with a troubled child psychologist. This chilling and emotional thriller builds to one of the most iconic twists in film history.",
+        "id": 142,
+        "year": "1999",
+        "poster": "https://image.tmdb.org/t/p/original/vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg"
+    },
+    {
+        "title": "Casino",
+        "description": "A casino manager's empire begins to crumble as greed, betrayal, and violence take over in 1970s Las Vegas. Scorsese delivers a gritty, operatic tale of crime and corruption in the city of sin.",
+        "id": 143,
+        "year": "1995",
+        "poster": "https://image.tmdb.org/t/p/original/gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg"
+    },
+    {
+        "title": "Ran",
+        "description": "An aging warlord divides his kingdom among his sons, triggering betrayal and chaos. Kurosawa's vivid epic, inspired by King Lear, blends Shakespearean tragedy with feudal Japanese warfare.",
+        "id": 144,
+        "year": "1985",
+        "poster": "https://image.tmdb.org/t/p/original/FepaiApo8Yr6pNIZIeYG5kW06J.jpg"
+    },
+    {
+        "title": "Top Gun: Maverick",
+        "description": "Decades after his rise, pilot Pete \"Maverick\" Mitchell returns to train a new generation for a high-risk mission. With thrilling aerial action and emotional depth, it's a soaring sequel that honors its legacy.",
+        "id": 145,
+        "year": "2022",
+        "poster": "https://image.tmdb.org/t/p/original/62HCnUTziyWcpDaBO2i1DX17ljH.jpg"
+    },
+    {
+        "title": "No Country for Old Men",
+        "description": "A hunter finds a suitcase of drug money, setting off a brutal chain of events involving a relentless hitman. The Coen Brothers' bleak, masterful thriller explores fate, violence, and moral decay.",
+        "id": 146,
+        "year": "2007",
+        "poster": "https://image.tmdb.org/t/p/original/bj1v6YKF8yHqA489VFfnQvOJpnc.jpg"
+    },
+    {
+        "title": "The Thing",
+        "description": "A shape-shifting alien terrorizes a remote Antarctic outpost, turning men against each other in a fight for survival. John Carpenter's sci-fi horror classic is a masterclass in paranoia and practical effects.",
+        "id": 147,
+        "year": "1982",
+        "poster": "https://image.tmdb.org/t/p/original/a9RjXOIIB56k2rGoL3Fk3nRHHHQ.jpg"
+    },
+    {
+        "title": "Pan's Labyrinth",
+        "description": "In fascist Spain, a young girl escapes into a dark fantasy world filled with mythical creatures and dangerous trials. Guillermo del Toro's haunting fairy tale is a poetic blend of innocence and brutality.",
+        "id": 148,
+        "year": "2006",
+        "poster": "https://image.tmdb.org/t/p/original/s8C4whhKtDaJvMDcyiMvx3BIF5F.jpg"
+    },
+    {
+        "title": "Unforgiven",
+        "description": "A retired gunslinger takes one last job, confronting the myth of the noble Western hero. Clint Eastwood's revisionist Western is a powerful meditation on violence, morality, and redemption.",
+        "id": 149,
+        "year": "1992",
+        "poster": "https://image.tmdb.org/t/p/original/54roTwbX9fltg85zjsmrooXAs12.jpg"
+    },
+    {
+        "title": "A Beautiful Mind",
+        "description": "The brilliant but troubled life of mathematician John Nash, whose genius is challenged by mental illness. This moving biopic blends love, intellect, and resilience in a story of triumph over adversity.",
+        "id": 150,
+        "year": "2001",
+        "poster": "https://image.tmdb.org/t/p/original/rEIg5yJdNOt9fmX4P8gU9LeNoTQ.jpg"
+    },
+    {
+        "title": "Kill Bill: Vol. 1",
+        "description": "A former assassin seeks vengeance on those who betrayed her, carving a bloody path through a stylized world of combat. Tarantino's action epic is a kinetic tribute to martial arts, anime, and revenge cinema.",
+        "id": 151,
+        "year": "2003",
+        "poster": "https://image.tmdb.org/t/p/original/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg"
+    },
+    {
+        "title": "The Treasure of the Sierra Madre",
+        "description": "Three prospectors' dream of finding gold in the Mexican mountains turns into a nightmare of greed and paranoia. A gritty adventure and moral fable about the corrupting power of wealth.",
+        "id": 152,
+        "year": "1948",
+        "poster": "https://image.tmdb.org/t/p/original/pWcst7zVbi8Z8W6GFrdNE7HHRxL.jpg"
+    },
+    {
+        "title": "Prisoners",
+        "description": "When two young girls go missing, a father takes justice into his own hands while a detective follows the official investigation. A tense, morally complex thriller about fear, desperation, and the cost of truth.",
+        "id": 153,
+        "year": "2013",
+        "poster": "https://image.tmdb.org/t/p/original/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg"
+    },
+    {
+        "title": "Yojimbo",
+        "description": "A lone ronin arrives in a town torn between rival gangs and plays them against each other. Kurosawa's influential classic inspired countless Westerns and action films, blending wit, violence, and style.",
+        "id": 154,
+        "year": "1961",
+        "poster": "https://image.tmdb.org/t/p/original/faY48OfU3M32JXWUNz8doaG3Cd4.jpg"
+    },
+    {
+        "title": "Finding Nemo",
+        "description": "After his son is captured by divers, a timid clownfish embarks on an ocean-wide journey to bring him home. Pixar's heartfelt, colorful tale of courage and family is both thrilling and deeply moving.",
+        "id": 155,
+        "year": "2003",
+        "poster": "https://image.tmdb.org/t/p/original/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg"
+    },
+    {
+        "title": "Howl's Moving Castle",
+        "description": "A young woman cursed with old age finds sanctuary aboard a magical walking castle with a reclusive wizard. Hayao Miyazaki's imaginative fantasy explores war, identity, and compassion with visual wonder.",
+        "id": 156,
+        "year": "2004",
+        "poster": "https://image.tmdb.org/t/p/original/23hUJh7JdO23SpgUB5oiFDQk2wX.jpg"
+    },
+    {
+        "title": "The Great Escape",
+        "description": "Allied POWs hatch a massive escape plan from a Nazi prison camp during World War II. Based on true events, this classic adventure is full of suspense, charm, and heroic defiance.",
+        "id": 157,
+        "year": "1963",
+        "poster": "https://image.tmdb.org/t/p/original/gBH4H8UMFxl139HaLz6lRuvsel8.jpg"
+    },
+    {
+        "title": "Monty Python and the Holy Grail",
+        "description": "King Arthur and his knights embark on a ridiculous quest filled with absurd trials, killer rabbits, and coconuts. A legendary comedy that parodies medieval epics with irreverent British wit.",
+        "id": 158,
+        "year": "1975",
+        "poster": "https://image.tmdb.org/t/p/original/8AVb7tyxZRsbKJNOTJHQZl7JYWO.jpg"
+    },
+    {
+        "title": "The Elephant Man",
+        "description": "The tragic life of Joseph Merrick, a severely deformed man exploited by society yet yearning for dignity. David Lynch's tender, heartbreaking drama is a profound statement on humanity and compassion.",
+        "id": 159,
+        "year": "1980",
+        "poster": "https://image.tmdb.org/t/p/original/u0wpPYjuSt8DIe1Y3Vapnh8jcKE.jpg"
+    },
+    {
+        "title": "Dial M for Murder",
+        "description": "A man plots the perfect murder of his wealthy wife, but things don't go according to plan. Hitchcock's suspenseful thriller unfolds with clever twists and chilling precision.",
+        "id": 160,
+        "year": "1954",
+        "poster": "https://image.tmdb.org/t/p/original/9V95TXeYLYEPrMBtU7kIIyWdPNA.jpg"
+    },
+    {
+        "title": "Klaus",
+        "description": "A selfish postman and a reclusive toymaker team up to bring joy to a frozen town, unwittingly starting a Christmas legend. This beautifully animated story reimagines the origin of Santa Claus with warmth and charm.",
+        "id": 161,
+        "year": "2019",
+        "poster": "https://image.tmdb.org/t/p/original/q125RHUDgR4gjwh1QkfYuJLYkL.jpg"
+    },
+    {
+        "title": "Gone with the Wind",
+        "description": "Amid the turmoil of the American Civil War, a headstrong Southern woman navigates love, loss, and survival. Lavish and controversial, it remains a towering piece of Hollywood melodrama and historical romance.",
+        "id": 162,
+        "year": "1939",
+        "poster": "https://image.tmdb.org/t/p/original/lNz2Ow0wGCAvzckW7EOjE03KcYv.jpg"
+    },
+    {
+        "title": "Rashomon",
+        "description": "Four people give conflicting accounts of a violent crime, each revealing different versions of the truth. Kurosawa's groundbreaking film explores the nature of perception, memory, and subjectivity.",
+        "id": 163,
+        "year": "1950",
+        "poster": "https://image.tmdb.org/t/p/original/vL7Xw04nFMHwnvXRFCmYYAzMUvY.jpg"
+    },
+    {
+        "title": "Chinatown",
+        "description": "A private detective uncovers a web of corruption involving water rights, power, and family secrets in 1930s Los Angeles. Polanski's noir masterpiece is a dark, cynical tale of lies, betrayal, and control.",
+        "id": 164,
+        "year": "1974",
+        "poster": "https://image.tmdb.org/t/p/original/kZRSP3FmOcq0xnBulqpUQngJUXY.jpg"
+    },
+    {
+        "title": "The Secret in Their Eyes",
+        "description": "A retired investigator reopens a decades-old rape and murder case that still haunts him. This Argentine thriller weaves mystery, justice, and unrequited love with emotional depth and suspense.",
+        "id": 165,
+        "year": "2009",
+        "poster": "https://image.tmdb.org/t/p/original/dkeAwfZzwL3WvToydE3CXiY80E0.jpg"
+    },
+    {
+        "title": "Lock, Stock and Two Smoking Barrels",
+        "description": "Four London friends find themselves entangled in a chaotic underworld of debt, robbery, and double-crosses. Guy Ritchie's breakout film is a stylish, fast-talking crime caper full of energy and attitude.",
+        "id": 166,
+        "year": "1998",
+        "poster": "https://image.tmdb.org/t/p/original/6pJB2t3MbQUy9m5pFIBHXLqnqNd.jpg"
+    },
+    {
+        "title": "V for Vendetta",
+        "description": "In a dystopian future ruled by tyranny, a masked vigilante inspires a revolution against oppression, challenging fear with ideas and identity.",
+        "id": 167,
+        "year": "2005",
+        "poster": "https://image.tmdb.org/t/p/original/1avD1JeaRiJX5M4ahPdZPypGoGN.jpg"
+    },
+    {
+        "title": "Inside Out",
+        "description": "The emotions inside a young girl's mind struggle to adapt when she moves to a new city, in a vibrant and touching exploration of memory and growing up.",
+        "id": 168,
+        "year": "2015",
+        "poster": "https://image.tmdb.org/t/p/original/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg"
+    },
+    {
+        "title": "Three Billboards Outside Ebbing, Missouri",
+        "description": "A grieving mother wages a public campaign against local police to find her daughter's killer, sparking conflict, transformation, and moral ambiguity.",
+        "id": 169,
+        "year": "2017",
+        "poster": "https://image.tmdb.org/t/p/original/uGMM9ZObmPUFrGqcbFMVyv8L1lU.jpg"
+    },
+    {
+        "title": "The Bridge on the River Kwai",
+        "description": "British POWs are forced to build a bridge for their Japanese captors, leading to a clash of pride, duty, and sabotage in this WWII epic.",
+        "id": 170,
+        "year": "1957",
+        "poster": "https://image.tmdb.org/t/p/original/7paXMt2e3Tr5dLmEZOGgFEn2Vo7.jpg"
+    },
+    {
+        "title": "Trainspotting",
+        "description": "A group of Scottish heroin addicts navigate addiction, friendship, and the grim beauty of life in this gritty, kinetic, and darkly humorous cult classic.",
+        "id": 171,
+        "year": "1996",
+        "poster": "https://image.tmdb.org/t/p/original/1jUC02qsqS2NxBMFarbIhcQtazV.jpg"
+    },
+    {
+        "title": "Catch Me If You Can",
+        "description": "Based on a true story, a teenage con artist eludes the FBI while forging checks and identities across the country, in a cat-and-mouse tale with surprising heart.",
+        "id": 172,
+        "year": "2002",
+        "poster": "https://image.tmdb.org/t/p/original/sdYgEkKCDPWNU6KnoL4qd8xZ4w7.jpg"
+    },
+    {
+        "title": "Raging Bull",
+        "description": "A brutal boxer's rise and fall is chronicled through raw physicality and emotional turmoil, in Scorsese's stark, black-and-white portrait of rage and redemption.",
+        "id": 173,
+        "year": "1980",
+        "poster": "https://image.tmdb.org/t/p/original/1WV7WlTS8LI1L5NkCgjWT9GSW3O.jpg"
+    },
+    {
+        "title": "The Wild Robot",
+        "description": "A solitary robot washed ashore on a remote island learns to survive, adapt, and care in a story that blends nature, artificial intelligence, and found family.",
+        "id": 174,
+        "year": "2024",
+        "poster": "https://image.tmdb.org/t/p/original/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg"
+    },
+    {
+        "title": "Fargo",
+        "description": "A botched kidnapping unravels into a spiral of violence and darkly comic absurdity in the snowy Midwest, with a pregnant sheriff slowly closing in on the truth.",
+        "id": 175,
+        "year": "1996",
+        "poster": "https://image.tmdb.org/t/p/original/rUjUCT6GvFS475sKJVfHWZUdnv5.jpg"
+    },
+    {
+        "title": "Warrior",
+        "description": "Two estranged brothers face off in a mixed martial arts tournament, fighting not only opponents but personal demons in a gripping, emotional sports drama.",
+        "id": 176,
+        "year": "2011",
+        "poster": "https://image.tmdb.org/t/p/original/iM8n4nZJPR2abpnyZ36FUgHiRjr.jpg"
+    },
+    {
+        "title": "Harry Potter and the Deathly Hallows: Part 2",
+        "description": "The final battle for Hogwarts and the wizarding world unfolds as Harry confronts Voldemort in an epic conclusion to the saga.",
+        "id": 177,
+        "year": "2011",
+        "poster": "https://image.tmdb.org/t/p/original/c54HpQmuwXjHq2C9wmoACjxoom3.jpg"
+    },
+    {
+        "title": "Gran Torino",
+        "description": "A grizzled war veteran finds unexpected redemption and connection with his Hmong neighbors after confronting his own prejudice and past.",
+        "id": 178,
+        "year": "2008",
+        "poster": "https://image.tmdb.org/t/p/original/zUybYvxWdAJy5hhYovsXtHSWI1l.jpg"
+    },
+    {
+        "title": "Million Dollar Baby",
+        "description": "A hardened boxing trainer reluctantly takes on a determined female fighter, leading to an emotionally devastating journey of ambition, loss, and love.",
+        "id": 179,
+        "year": "2004",
+        "poster": "https://image.tmdb.org/t/p/original/jcfEqKdWF1zeyvECPqp3mkWLct2.jpg"
+    },
+    {
+        "title": "Ben-Hur",
+        "description": "Betrayed by a friend and cast into slavery, a Jewish prince seeks vengeance and redemption in this grand, Oscar-winning biblical epic.",
+        "id": 180,
+        "year": "1959",
+        "poster": "https://image.tmdb.org/t/p/original/c9CoGrBA5yw8A7YBMz0hGzfzpNq.jpg"
+    },
+    {
+        "title": "Mad Max: Fury Road",
+        "description": "In a desolate wasteland, a reluctant hero joins a fugitive and her band of rebels in a high-octane chase for freedom and survival.",
+        "id": 181,
+        "year": "2015",
+        "poster": "https://image.tmdb.org/t/p/original/hA2ple9q4qnwxp3hKVNhroipsir.jpg"
+    },
+    {
+        "title": "My Neighbor Totoro",
+        "description": "Two sisters discover magical forest creatures after moving to the countryside, in a gentle, heartwarming tale of childhood wonder and family.",
+        "id": 182,
+        "year": "1988",
+        "poster": "https://image.tmdb.org/t/p/original/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg"
+    },
+    {
+        "title": "Barry Lyndon",
+        "description": "A young Irishman rises through 18th-century European society through charm, deception, and chance, in Kubrick's visually stunning period epic.",
+        "id": 183,
+        "year": "1975",
+        "poster": "https://image.tmdb.org/t/p/original/dOJtBSyI30wWc08UmyEKLsu4Rfk.jpg"
+    },
+    {
+        "title": "Spider-Man: No Way Home",
+        "description": "Spider-Man faces multiversal chaos as past villains return, forcing him to reckon with sacrifice, identity, and what it means to be a hero.",
+        "id": 184,
+        "year": "2021",
+        "poster": "https://image.tmdb.org/t/p/original/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
+    },
+    {
+        "title": "Dead Poets Society",
+        "description": "An unorthodox teacher inspires his students to think for themselves and seize the day, in a poignant tale of youth, conformity, and rebellion.",
+        "id": 185,
+        "year": "1989",
+        "poster": "https://image.tmdb.org/t/p/original/erzbMlcNHOdx24AXOcn2ZKA7R1q.jpg"
+    },
+    {
+        "title": "Children of Heaven",
+        "description": "A poor Iranian boy loses his sister's shoes, setting off a simple but profound story of sibling love, sacrifice, and perseverance.",
+        "id": 186,
+        "year": "1997",
+        "poster": "https://image.tmdb.org/t/p/original/jWqh1CJWAEcxckMRrf6ARhIEh0R.jpg"
+    },
+    {
+        "title": "12 Years a Slave",
+        "description": "Based on a true story, a free Black man is kidnapped and sold into slavery, enduring cruelty and clinging to hope over a harrowing twelve-year ordeal.",
+        "id": 187,
+        "year": "2013",
+        "poster": "https://image.tmdb.org/t/p/original/xdANQijuNrJaw1HA61rDccME4Tm.jpg"
+    },
+    {
+        "title": "Before Sunrise",
+        "description": "Two strangers meet on a train and spend one romantic, philosophical night wandering Vienna, exploring love, connection, and the fleeting magic of time.",
+        "id": 188,
+        "year": "1995",
+        "poster": "https://image.tmdb.org/t/p/original/kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg"
+    },
+    {
+        "title": "The Grand Budapest Hotel",
+        "description": "A fastidious concierge and his prot\u00e9g\u00e9 become entangled in murder and art theft, in Wes Anderson's whimsically stylized caper.",
+        "id": 189,
+        "year": "2014",
+        "poster": "https://image.tmdb.org/t/p/original/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg"
+    },
+    {
+        "title": "Hacksaw Ridge",
+        "description": "The true story of a pacifist medic who saved dozens of lives during WWII without firing a single shot, in a powerful testament to faith and courage.",
+        "id": 190,
+        "year": "2016",
+        "poster": "https://image.tmdb.org/t/p/original/jhWbYeUNOA5zAb6ufK6pXQFXqTX.jpg"
+    },
+    {
+        "title": "Blade Runner",
+        "description": "In a dystopian future, a blade runner hunts down rogue androids while questioning the nature of humanity, memory, and existence.",
+        "id": 191,
+        "year": "1982",
+        "poster": "https://image.tmdb.org/t/p/original/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg"
+    },
+    {
+        "title": "Gone Girl",
+        "description": "A seemingly perfect marriage unravels into a media-fueled mystery when a woman disappears, revealing manipulations, secrets, and shocking reversals.",
+        "id": 192,
+        "year": "2014",
+        "poster": "https://image.tmdb.org/t/p/original/ts996lKsxvjkO2yiYG0ht4qAicO.jpg"
+    },
+    {
+        "title": "Memories of Murder",
+        "description": "In 1980s South Korea, two detectives try to solve a series of brutal murders, spiraling into obsession in this haunting, true-crime-based thriller.",
+        "id": 193,
+        "year": "2003",
+        "poster": "https://image.tmdb.org/t/p/original/rxndHKwUeFgTHx0PuuhZS4dMtrB.jpg"
+    },
+    {
+        "title": "Ratatouille",
+        "description": "A rat with culinary dreams teams up with a young chef in Paris, proving that talent can come from the most unexpected places in this charming Pixar tale.",
+        "id": 194,
+        "year": "2007",
+        "poster": "https://image.tmdb.org/t/p/original/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg"
+    },
+    {
+        "title": "Monsters, Inc.",
+        "description": "Two monsters who generate energy by scaring children must rethink everything when a human child enters their world in this heartwarming and inventive adventure.",
+        "id": 195,
+        "year": "2001",
+        "poster": "https://image.tmdb.org/t/p/original/qjlbN6aK1qgeg3SspFVovT2D1Me.jpg"
+    },
+    {
+        "title": "In the Name of the Father",
+        "description": "A man wrongly imprisoned for an IRA bombing fights to prove his innocence with the help of his father, in a powerful legal and emotional drama based on true events.",
+        "id": 196,
+        "year": "1993",
+        "poster": "https://image.tmdb.org/t/p/original/7i1SObIa2MSJjgPcAcVsfSZhdKH.jpg"
+    },
+    {
+        "title": "How to Train Your Dragon",
+        "description": "A young Viking defies tradition by befriending a feared dragon, leading to a heartwarming journey of courage, empathy, and understanding across species.",
+        "id": 197,
+        "year": "2010",
+        "poster": "https://image.tmdb.org/t/p/original/q5pXRYTycaeW6dEgsCrd4mYPmxM.jpg"
+    },
+    {
+        "title": "Wild Tales",
+        "description": "A darkly comic anthology of six stories exploring vengeance, rage, and absurdity in modern life, blending satire with shocking, often hilarious consequences.",
+        "id": 198,
+        "year": "2014",
+        "poster": "https://image.tmdb.org/t/p/original/ucFsh8uU0Lsw7zouQFaRrs2ElOs.jpg"
+    },
+    {
+        "title": "The Gold Rush",
+        "description": "Charlie Chaplin's Tramp ventures into the Klondike in search of gold, encountering hardship, hunger, and heart in one of silent cinema's most iconic comedies.",
+        "id": 199,
+        "year": "1925",
+        "poster": "https://image.tmdb.org/t/p/original/eQRFo1qwRREYwj47Yoe1PisgOle.jpg"
+    },
+    {
+        "title": "Sherlock Jr.",
+        "description": "A film projectionist dreams himself into a movie as a suave detective, showcasing Buster Keaton's brilliant stunts and surreal visual innovations.",
+        "id": 200,
+        "year": "1924",
+        "poster": "https://image.tmdb.org/t/p/original/1G9r3rqtbFAQuyWKOZm4Y5J5s7Q.jpg"
+    },
+    {
+        "title": "Jaws",
+        "description": "A seaside town is terrorized by a massive great white shark, forcing three men into a deadly hunt in Spielberg's masterclass of suspense and blockbuster storytelling.",
+        "id": 201,
+        "year": "1975",
+        "poster": "https://image.tmdb.org/t/p/original/lxM6kqilAdpdhqUl2biYp5frUxE.jpg"
+    },
+    {
+        "title": "Mary and Max",
+        "description": "A lonely Australian girl begins a pen-pal friendship with a reclusive New Yorker with Asperger's, in this stop-motion tale of connection, isolation, and unlikely friendship.",
+        "id": 202,
+        "year": "2009",
+        "poster": "https://image.tmdb.org/t/p/original/ebmsM382m9IClLUzKYY2U5biFwM.jpg"
+    },
+    {
+        "title": "The Deer Hunter",
+        "description": "The lives of working-class friends are shattered by the Vietnam War, as it follows their bond, trauma, and the haunting aftermath of combat and captivity.",
+        "id": 203,
+        "year": "1978",
+        "poster": "https://image.tmdb.org/t/p/original/bbGtogDZOg09bm42KIpCXUXICkh.jpg"
+    },
+    {
+        "title": "Ford v Ferrari",
+        "description": "An American car designer and driver take on Ferrari at Le Mans, blending speed, innovation, and defiance in this true story of racing underdogs and corporate pressure.",
+        "id": 204,
+        "year": "2019",
+        "poster": "https://image.tmdb.org/t/p/original/dR1Ju50iudrOh3YgfwkAU1g2HZe.jpg"
+    },
+    {
+        "title": "The General",
+        "description": "Buster Keaton stars as a train engineer who must rescue his locomotive and his love during the Civil War, blending thrilling action with deadpan comedy genius.",
+        "id": 205,
+        "year": "1926",
+        "poster": "https://image.tmdb.org/t/p/original/3UUR2Evm2JtC2odd2UMYgs9Yi1x.jpg"
+    },
+    {
+        "title": "The Wages of Fear",
+        "description": "Four desperate men are hired to transport volatile nitroglycerin through treacherous terrain, in this unbearably tense and gripping thriller of risk and survival.",
+        "id": 206,
+        "year": "1953",
+        "poster": "https://image.tmdb.org/t/p/original/jFK2ZLQUzo9pea0jfMCHDfvWsx7.jpg"
+    },
+    {
+        "title": "Mr. Smith Goes to Washington",
+        "description": "An idealistic senator takes on political corruption with integrity and a marathon filibuster in Frank Capra's stirring defense of democracy and civic virtue.",
+        "id": 207,
+        "year": "1939",
+        "poster": "https://image.tmdb.org/t/p/original/nDjg1fbNyq15excNDl3acd2IqAk.jpg"
+    },
+    {
+        "title": "On the Waterfront",
+        "description": "A dockworker wrestles with conscience, corruption, and redemption in this powerful drama of labor, loyalty, and standing up for what's right.",
+        "id": 208,
+        "year": "1954",
+        "poster": "https://image.tmdb.org/t/p/original/fKjLZy9W8VxMOp5OoyWojmLVCQw.jpg"
+    },
+    {
+        "title": "Wild Strawberries",
+        "description": "An aging professor journeys to receive an award and reflects on his past, dreams, and regrets in Ingmar Bergman's poetic meditation on time and mortality.",
+        "id": 209,
+        "year": "1957",
+        "poster": "https://image.tmdb.org/t/p/original/mJrJSzrLP8MiCtBjPVKE29QCQ5Q.jpg"
+    },
+    {
+        "title": "Logan",
+        "description": "An aging, weary Wolverine protects a young mutant in a bleak future, offering a brutal, poignant, and human farewell to a legendary character.",
+        "id": 210,
+        "year": "2017",
+        "poster": "https://image.tmdb.org/t/p/original/fnbjcRDYn6YviCcePDnGdyAkYsB.jpg"
+    },
+    {
+        "title": "Rocky",
+        "description": "A small-time boxer gets an unlikely shot at the world heavyweight title, rising above self-doubt and struggle in this iconic underdog story.",
+        "id": 211,
+        "year": "1976",
+        "poster": "https://image.tmdb.org/t/p/original/8kEun6U9hTddM7NEfLLCGQKU2Mp.jpg"
+    },
+    {
+        "title": "The Third Man",
+        "description": "In postwar Vienna, a writer investigates a friend's mysterious death, uncovering a web of deception in this noir classic known for its shadowy style and unforgettable score.",
+        "id": 212,
+        "year": "1949",
+        "poster": "https://image.tmdb.org/t/p/original/oEf4RBL0sXsGczfybnkwi1PHPvR.jpg"
+    },
+    {
+        "title": "Tokyo Story",
+        "description": "An elderly couple visits their grown children in the city, only to find themselves quietly neglected in Ozu's deeply moving reflection on family, aging, and generational change.",
+        "id": 213,
+        "year": "1953",
+        "poster": "https://image.tmdb.org/t/p/original/g2YbTYKpY7N2yDSk7BfXZ18I5QV.jpg"
+    },
+    {
+        "title": "Spotlight",
+        "description": "A team of Boston journalists uncovers the Catholic Church's systemic cover-up of abuse, in a gripping true story about investigative reporting and institutional failure.",
+        "id": 214,
+        "year": "2015",
+        "poster": "https://image.tmdb.org/t/p/original/8DPGG400FgaFWaqcv11n8mRd2NG.jpg"
+    },
+    {
+        "title": "The Big Lebowski",
+        "description": "A laid-back slacker known as \u201cThe Dude\u201d gets pulled into a bizarre kidnapping scheme, in the Coen Brothers' endlessly quotable cult comedy.",
+        "id": 215,
+        "year": "1998",
+        "poster": "https://image.tmdb.org/t/p/original/9mprbw31MGdd66LR0AQKoDMoFRv.jpg"
+    },
+    {
+        "title": "Maharaja",
+        "description": "A young man from a humble background rises to prominence in a story of transformation and social resistance, blending drama, ambition, and cultural change. *(Note: If this is a specific recent film, let me know more details for an exact description.)*",
+        "id": 216,
+        "year": "2024",
+        "poster": "https://image.tmdb.org/t/p/original/7aqfENdbntf8N1Jqo35zGQGX33T.jpg"
+    },
+    {
+        "title": "The Terminator",
+        "description": "A cyborg assassin from the future is sent to kill a woman destined to bear humanity's savior, kicking off a legendary sci-fi franchise with relentless intensity.",
+        "id": 217,
+        "year": "1984",
+        "poster": "https://image.tmdb.org/t/p/original/hzXSE66v6KthZ8nPoLZmsi2G05j.jpg"
+    },
+    {
+        "title": "The Seventh Seal",
+        "description": "A knight returning from the Crusades plays chess with Death amid a plague-stricken world, in Bergman's existential masterpiece about faith, fear, and the silence of God.",
+        "id": 218,
+        "year": "1957",
+        "poster": "https://image.tmdb.org/t/p/original/vROriVUh5z5Yq6t9EKUpA0lEDhV.jpg"
+    },
+    {
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "description": "A roguish pirate and a blacksmith team up to rescue a kidnapped woman and battle cursed undead sailors, launching a swashbuckling franchise full of charm and chaos.",
+        "id": 219,
+        "year": "2003",
+        "poster": "https://image.tmdb.org/t/p/original/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg"
+    },
+    {
+        "title": "Room",
+        "description": "A young boy escapes from captivity with his mother and begins to discover the world outside in this emotionally raw story of trauma, resilience, and renewal.",
+        "id": 220,
+        "year": "2015",
+        "poster": "https://image.tmdb.org/t/p/original/pCxhR0RIiqnEdymvqatL3UWBs85.jpg"
+    },
+    {
+        "title": "I'm Still Here",
+        "description": "Joaquin Phoenix appears to document his retirement from acting and descent into chaos, blurring lines between reality and performance in this polarizing mockumentary.",
+        "id": 221,
+        "year": "2024",
+        "poster": "https://image.tmdb.org/t/p/original/gZnsMbhCvhzAQlKaVpeFRHYjGyb.jpg"
+    },
+    {
+        "title": "La haine",
+        "description": "A day in the lives of three young men in a Paris suburb reveals rising tensions, poverty, and racial injustice in this stark, powerful portrait of urban unrest.",
+        "id": 222,
+        "year": "1995",
+        "poster": "https://image.tmdb.org/t/p/original/iH8saz6s0Z8SPPrKaMI2KrRzTED.jpg"
+    },
+    {
+        "title": "Jai Bhim",
+        "description": "A principled lawyer fights for justice after a tribal man is falsely accused and brutally mistreated by police, exposing systemic caste and legal discrimination in India.",
+        "id": 223,
+        "year": "2021",
+        "poster": "https://image.tmdb.org/t/p/original/ehybiOtBUtrMkmtB39zQEtq1Jie.jpg"
+    },
+    {
+        "title": "Hotel Rwanda",
+        "description": "During the Rwandan genocide, a hotel manager risks everything to shelter refugees, in this harrowing true story of courage, survival, and moral responsibility.",
+        "id": 224,
+        "year": "2004",
+        "poster": "https://image.tmdb.org/t/p/original/lOBsGSCBEZNdsiCNpoSG2S6xrdN.jpg"
+    },
+    {
+        "title": "Platoon",
+        "description": "A young soldier's idealism is shattered amid the brutality and moral ambiguity of the Vietnam War in Oliver Stone's deeply personal and haunting war drama.",
+        "id": 225,
+        "year": "1986",
+        "poster": "https://image.tmdb.org/t/p/original/m3mmFkPQKvPZq5exmh0bDuXlD9T.jpg"
+    },
+    {
+        "title": "The Best Years of Our Lives",
+        "description": "Three WWII veterans return home and struggle to reintegrate into civilian life, confronting trauma, family changes, and societal shifts in this moving postwar classic.",
+        "id": 226,
+        "year": "1946",
+        "poster": "https://image.tmdb.org/t/p/original/gd5EoAU4MM57sW3vlWxJ0NMM8cV.jpg"
+    },
+    {
+        "title": "Before Sunset",
+        "description": "Nine years after their first meeting, Jesse and Celine reunite in Paris and reflect on love, time, and missed chances, in this intimate, real-time conversation-driven sequel.",
+        "id": 227,
+        "year": "2004",
+        "poster": "https://image.tmdb.org/t/p/original/94Yl2xVB7YIRK4IgA0RqYGiNgkB.jpg"
+    },
+    {
+        "title": "The Exorcist",
+        "description": "A mother turns to a priest for help when her daughter is possessed by a demonic force, in one of the most iconic and terrifying horror films of all time.",
+        "id": 228,
+        "year": "1973",
+        "poster": "https://image.tmdb.org/t/p/original/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg"
+    },
+    {
+        "title": "The Sound of Music",
+        "description": "A spirited governess brings joy and music to a strict Austrian household as the threat of war looms, in this beloved musical about love, freedom, and family.",
+        "id": 229,
+        "year": "1965",
+        "poster": "https://image.tmdb.org/t/p/original/nv8bcyqXJh2tijWLa3MoUktlVZZ.jpg"
+    },
+    {
+        "title": "The Passion of Joan of Arc",
+        "description": "Told through haunting close-ups and stark visuals, this silent masterpiece captures the trial and suffering of the martyred French heroine with emotional intensity and spiritual depth.",
+        "id": 230,
+        "year": "1928",
+        "poster": "https://image.tmdb.org/t/p/original/plzI7N52uHhERUZLNSVbGGakFwR.jpg"
+    },
+    {
+        "title": "The Wizard of Oz",
+        "description": "A young girl is swept to a magical land where she makes friends, battles a wicked witch, and learns the meaning of home in one of cinema's most enduring and fantastical journeys.",
+        "id": 231,
+        "year": "1939",
+        "poster": "https://image.tmdb.org/t/p/original/pfAZFD7I2hxW9HCChTuAzsdE6UX.jpg"
+    },
+    {
+        "title": "The Incredibles",
+        "description": "A family of superheroes struggles to blend in with society until a new threat forces them to embrace their powers in Pixar's witty, stylish take on family dynamics and heroism.",
+        "id": 232,
+        "year": "2004",
+        "poster": "https://image.tmdb.org/t/p/original/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg"
+    },
+    {
+        "title": "Hachi: A Dog's Tale",
+        "description": "Based on a true story, a dog waits every day at a train station for his deceased owner, in a deeply emotional tribute to loyalty, love, and the bond between humans and animals.",
+        "id": 233,
+        "year": "2009",
+        "poster": "https://image.tmdb.org/t/p/original/lsy3aEsEfYIHdLRk4dontZ4s85h.jpg"
+    },
+    {
+        "title": "Rush",
+        "description": "The fierce real-life rivalry between Formula One drivers James Hunt and Niki Lauda comes to life in this high-speed drama about competition, passion, and respect.",
+        "id": 234,
+        "year": "2013",
+        "poster": "https://image.tmdb.org/t/p/original/5hpcfL3WH5ArSPUlfD4E1TtaOd0.jpg"
+    },
+    {
+        "title": "Stand by Me",
+        "description": "Four boys embark on a journey to find a missing body, discovering courage, grief, and the bonds of friendship in this poignant coming-of-age tale.",
+        "id": 235,
+        "year": "1986",
+        "poster": "https://image.tmdb.org/t/p/original/vBv8iOFPLnXmtELUjcFc7OKHsR4.jpg"
+    },
+    {
+        "title": "My Father and My Son",
+        "description": "After a political tragedy, a father and son return to their estranged family, confronting grief, love, and reconciliation in this moving Turkish drama.",
+        "id": 236,
+        "year": "2005",
+        "poster": "https://image.tmdb.org/t/p/original/dcKY23xowYTU9B1cagUdHQwsxOB.jpg"
+    },
+    {
+        "title": "Network",
+        "description": "A news anchor's on-air breakdown becomes a ratings sensation, exposing the ruthless commodification of media in this sharp, prophetic satire of television and corporate culture.",
+        "id": 237,
+        "year": "1976",
+        "poster": "https://image.tmdb.org/t/p/original/gZ8hhuVEQ78CLND09trZJ45Eiy8.jpg"
+    },
+    {
+        "title": "The Iron Giant",
+        "description": "A boy befriends a massive robot from space and protects him from fearful authorities in this beautifully animated tale about identity, choice, and sacrifice.",
+        "id": 238,
+        "year": "1999",
+        "poster": "https://image.tmdb.org/t/p/original/ct04FCFLPImNG5thcPLRnVsZlmS.jpg"
+    },
+    {
+        "title": "The Handmaiden",
+        "description": "In Japanese-occupied Korea, a con artist and a young heiress become entangled in a twisting tale of deception, passion, and power in this lush psychological thriller.",
+        "id": 239,
+        "year": "2016",
+        "poster": "https://image.tmdb.org/t/p/original/dLlH4aNHdnmf62umnInL8xPlPzw.jpg"
+    },
+    {
+        "title": "A Silent Voice: The Movie",
+        "description": "A former bully seeks redemption by reconnecting with the deaf girl he once tormented, in this emotional anime about regret, forgiveness, and mental health.",
+        "id": 240,
+        "year": "2016",
+        "poster": "https://image.tmdb.org/t/p/original/tuFaWiqX0TXoWu7DGNcmX3UW7sT.jpg"
+    },
+    {
+        "title": "To Be or Not to Be",
+        "description": "A troupe of actors in Nazi-occupied Poland use their craft to resist oppression, in this darkly comic and clever wartime satire about performance and resistance.",
+        "id": 241,
+        "year": "1942",
+        "poster": "https://image.tmdb.org/t/p/original/5VDZskShjJKAn3NP34LxnOVYek5.jpg"
+    },
+    {
+        "title": "The Battle of Algiers",
+        "description": "A gripping, documentary-style reenactment of Algeria's fight for independence, capturing the tactics, tensions, and moral costs of urban guerrilla warfare.",
+        "id": 242,
+        "year": "1966",
+        "poster": "https://image.tmdb.org/t/p/original/Df9SP4FgPMrIQBw5WOGtSi3fnT.jpg"
+    },
+    {
+        "title": "The Grapes of Wrath",
+        "description": "A poor family migrates west during the Great Depression, seeking hope amid hardship, in John Steinbeck's powerful tale of resilience, injustice, and human dignity.",
+        "id": 243,
+        "year": "1940",
+        "poster": "https://image.tmdb.org/t/p/original/eUcxMVBIA0Jg8l1RGUqycrc3eIQ.jpg"
+    },
+    {
+        "title": "Into the Wild",
+        "description": "A young man leaves behind modern life to wander across America in search of meaning, with beauty and tragedy unfolding in this real-life odyssey of freedom and solitude.",
+        "id": 244,
+        "year": "2007",
+        "poster": "https://image.tmdb.org/t/p/original/jnLnLYP5pGDfri04gxtAqAvkHMw.jpg"
+    },
+    {
+        "title": "Groundhog Day",
+        "description": "A cynical weatherman relives the same day over and over, eventually discovering purpose, compassion, and self-improvement in this clever blend of comedy and philosophy.",
+        "id": 245,
+        "year": "1993",
+        "poster": "https://image.tmdb.org/t/p/original/gCgt1WARPZaXnq523ySQEUKinCs.jpg"
+    },
+    {
+        "title": "The Help",
+        "description": "In 1960s Mississippi, an aspiring writer interviews Black maids to expose the racism they face, forging unlikely bonds in a story of courage, dignity, and resistance.",
+        "id": 246,
+        "year": "2011",
+        "poster": "https://image.tmdb.org/t/p/original/3kmfoWWEc9Vtyuaf9v5VipRgdjx.jpg"
+    },
+    {
+        "title": "Amores Perros",
+        "description": "Three interconnected stories in Mexico City explore love, violence, and fate, linked by a car crash in this gritty, emotionally raw debut by Alejandro Gonz\u00e1lez I\u00f1\u00e1rritu.",
+        "id": 247,
+        "year": "2000",
+        "poster": "https://image.tmdb.org/t/p/original/tuyV4ceh80IBTbRJWX7jJ59UFxn.jpg"
+    },
+    {
+        "title": "Drishyam",
+        "description": "A man goes to extraordinary lengths to protect his family after a crime, in this tightly woven thriller about perception, morality, and deception.",
+        "id": 248,
+        "year": "2015",
+        "poster": "https://image.tmdb.org/t/p/original/rExJi4Byl4zwwjvZyOKO1TbGkPj.jpg"
+    },
+    {
+        "title": "Gangs of Wasseypur",
+        "description": "Spanning decades, this gritty Indian crime saga follows feuding crime families in a coal town, blending revenge, politics, and generational violence in epic fashion.",
+        "id": 249,
+        "year": "2012",
+        "poster": "https://image.tmdb.org/t/p/original/4CVPyT10Cvw9BCgWNKXiRcXntuc.jpg"
+    }
+]
