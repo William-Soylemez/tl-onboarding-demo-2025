@@ -36,6 +36,7 @@ function MovieIcon({ movieData }: { movieData: MovieDataType }) {
 export default async function Home({ params }: Props) {
 
   const { page } = await params;
+  const numericPage = parseInt(page || "", 10);
 
   const res = await fetch(`http://localhost:3000/api/list?page=${page}`, {
     next: { revalidate: 60 },
@@ -59,19 +60,23 @@ export default async function Home({ params }: Props) {
         ))}
       </div>
       <div className="flex flex-row justify-center">
-        <Link
-          className="bg-green-400 text-white font-bold py-2 px-4 rounded m-5 hover:bg-green-500 transition duration-150 w-24 text-center"
-          href={`/list/${parseInt(page) - 1}`}
-        >
-          Previous
-        </Link>
-        <Link
-          className="bg-green-400 text-white font-bold py-2 px-4 rounded m-5 hover:bg-green-500 transition duration-150 w-24 text-center"
-          href={`/list/${parseInt(page) + 1}`}
-        >
-          Next
-        </Link>
+        {numericPage > 1 &&
+          <Link
+            className="bg-green-400 text-white font-bold py-2 px-4 rounded m-5 hover:bg-green-500 transition duration-150 w-24 text-center"
+            href={`/list/${numericPage - 1}`}
+          >
+            Previous
+          </Link>
+        }
+        {numericPage < 10 &&
+          <Link
+            className="bg-green-400 text-white font-bold py-2 px-4 rounded m-5 hover:bg-green-500 transition duration-150 w-24 text-center"
+            href={`/list/${parseInt(page) + 1}`}
+          >
+            Next
+          </Link>
+        }
       </div>
-    </div>
+    </div >
   );
 }
