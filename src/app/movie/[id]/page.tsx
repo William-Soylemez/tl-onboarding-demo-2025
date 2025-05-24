@@ -1,4 +1,6 @@
 import Image from "next/image";
+import ToggleSeen from "./ToggleSeen";
+import Recommend from "./Recommend";
 
 type Props = {
   params: { id: string }
@@ -6,17 +8,28 @@ type Props = {
 
 export default async function MoviePage({ params }: Props) {
   const { id } = await params;
+  const numericId = parseInt(id, 10);
+  if (Number.isNaN(numericId)) {
+    return <div>Invalid movie ID</div>;
+  }
 
 
   const res = await fetch(`http://localhost:3000/api/movie?id=${id}`, {
     next: { revalidate: 60 },
   });
-  
+
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
   const data = await res.json();
-  console.log(data.poster);
+
+  const user_id = 1; // Replace with actual user ID
+  // Get recommend and seen status
+  const ratingRes = await fetch(`http://localhost:3000/api/demo/getMovieRating?user_id=${user_id}&movie_id=${id}`);
+  if (!ratingRes.ok) {
+    throw new Error("Failed to fetch data");
+  }
+  const { recommend, seen } = await ratingRes.json();
 
   return (
     <div>
@@ -37,7 +50,12 @@ export default async function MoviePage({ params }: Props) {
           <p className="my-5 text-md">
             {data.description}
           </p>
+          <div className="flex flex-row items-center justify-between w-full">
+            <ToggleSeen seen={seen} user_id={user_id} movie_id={numericId} />
+            <Recommend recommend={recommend} user_id={user_id} movie_id={numericId} />
+          </div>
         </div>
+
 
       </div>
 
