@@ -18,6 +18,8 @@ export default async function MoviePage({ params }: Props) {
     next: { revalidate: 60 },
   });
 
+  // console.log(res.text());
+
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
@@ -33,9 +35,6 @@ export default async function MoviePage({ params }: Props) {
 
   return (
     <div>
-      <div className="text-green-400 text-5xl font-bold m-5 text-center ">
-        JumboBox'd
-      </div>
       <div className="flex flex-row p-5">
         <Image
           src={data.poster}

@@ -130,7 +130,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/Users/williamsoylemez/Documents/Programing/JumboCode/HoE/jumbocode-info/src/generated/prisma",
+      "value": "/Users/williamsoylemez/Documents/Programing/JumboCode/HoE/tl-onboarding-demo-2025/src/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -144,12 +144,11 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/Users/williamsoylemez/Documents/Programing/JumboCode/HoE/jumbocode-info/prisma/schema.prisma",
+    "sourceFilePath": "/Users/williamsoylemez/Documents/Programing/JumboCode/HoE/tl-onboarding-demo-2025/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": "../../../.env",
-    "schemaEnvPath": "../../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../../prisma",
   "clientVersion": "6.8.2",
@@ -158,7 +157,7 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
-  "postinstall": false,
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {

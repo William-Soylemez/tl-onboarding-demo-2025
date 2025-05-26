@@ -48,9 +48,6 @@ export default async function Home({ params }: Props) {
 
   return (
     <div>
-      <div className="text-green-400 text-5xl font-bold m-5 text-center ">
-        JumboBox'd
-      </div>
       <div className="grid grid-cols-6 gap-10 m-16">
         {data.map((movie: MovieDataType) => (
           <MovieIcon
