@@ -14,7 +14,7 @@ export default async function MoviePage({ params }: any) {
   }
 
 
-  const res = await fetch(`http://localhost:3000/api/movie?id=${id}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/movie?id=${id}`, {
     next: { revalidate: 60 },
   });
 
@@ -30,7 +30,7 @@ export default async function MoviePage({ params }: any) {
   if (user_id) {
     const token = await getToken();
     const ratingRes = await fetch(
-      `http://localhost:3000/api/demo/getMovieRating?movie_id=${id}`,
+      `${process.env.NEXT_PUBLIC_URL}/api/demo/getMovieRating?movie_id=${id}`,
       {
         headers: { Authorization: `Bearer ${token}` },
       }

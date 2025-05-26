@@ -22,7 +22,9 @@ export default async function Page({ params }: any) {
     return <div>Invalid page number</div>;
   }
 
-  const res = await fetch(`http://localhost:3000/api/list?page=${page}`, {
+
+  // Fetch movie data for the given page
+  const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/list?page=${page}`, {
     next: { revalidate: 60 },
   });
   if (!res.ok) {

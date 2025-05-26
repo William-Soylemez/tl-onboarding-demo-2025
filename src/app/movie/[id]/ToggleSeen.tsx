@@ -16,7 +16,7 @@ const ToggleSeen = (
   const router = useRouter();
 
   const handleToggleSeen = async () => {
-    const res = await fetch("http://localhost:3000/api/demo/updateRating", {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/demo/updateRating`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

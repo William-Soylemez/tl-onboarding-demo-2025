@@ -11,7 +11,7 @@ type MovieDataType = {
 
 export default async function Home() {
 
-  const res = await fetch(`http://localhost:3000/api/list?page=${1}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/list?page=${1}`, {
     next: { revalidate: 60 },
   });
   if (!res.ok) {
@@ -31,7 +31,7 @@ export default async function Home() {
 
   const token = await getToken();
   const likedMoviesRes = await fetch(
-    `http://localhost:3000/api/demo/getLikedMovies`,
+    `${process.env.NEXT_PUBLIC_URL}/api/demo/getLikedMovies`,
     {
       headers: { Authorization: `Bearer ${token}` },
     }
