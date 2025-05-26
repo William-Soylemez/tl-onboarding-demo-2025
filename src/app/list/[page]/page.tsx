@@ -9,15 +9,18 @@ type MovieDataType = {
 };
 
 type Props = {
-  params: { page: string }
+  params: {
+    page: string;
+  };
 };
 
+export default async function Page({ params }: any) {
 
-
-export default async function Home({ params }: Props) {
-
-  const { page } = await params;
-  const numericPage = parseInt(page || "", 10);
+  const { page } = params;
+  const numericPage = parseInt(page, 10);
+  if (Number.isNaN(numericPage) || numericPage < 1) {
+    return <div>Invalid page number</div>;
+  }
 
   const res = await fetch(`http://localhost:3000/api/list?page=${page}`, {
     next: { revalidate: 60 },

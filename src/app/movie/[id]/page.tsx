@@ -2,13 +2,11 @@ import Image from "next/image";
 import ToggleSeen from "./ToggleSeen";
 import Recommend from "./Recommend";
 
+
+
 import { auth } from "@clerk/nextjs/server";
 
-type Props = {
-  params: { id: string }
-};
-
-export default async function MoviePage({ params }: Props) {
+export default async function MoviePage({ params }: any) {
   const { id } = await params;
   const numericId = parseInt(id, 10);
   if (Number.isNaN(numericId)) {
