@@ -13,7 +13,7 @@ export async function POST(request: Request) {
     const prisma = new PrismaClient();
     try {
         // Check if the rating exists
-        const existingRating = await prisma.ratings.findFirst({
+        const existingRating = await prisma.rating.findFirst({
             where: {
                 user_id: user_id,
                 movie_id: movie_id
@@ -21,7 +21,7 @@ export async function POST(request: Request) {
         });
         let result;
         if (existingRating) {
-            result = await prisma.ratings.update({
+            result = await prisma.rating.update({
                 where: {
                     id: existingRating.id // Use the ID of the existing rating
                 },
@@ -34,7 +34,7 @@ export async function POST(request: Request) {
             });
         } else {
             // Create a new rating if it doesn't exist
-            result = await prisma.ratings.create({
+            result = await prisma.rating.create({
                 data: {
                     user_id,
                     movie_id,

@@ -128,6 +128,14 @@ exports.Prisma.RatingsScalarFieldEnum = {
   seen: 'seen'
 };
 
+exports.Prisma.RatingScalarFieldEnum = {
+  id: 'id',
+  user_id: 'user_id',
+  movie_id: 'movie_id',
+  recommend: 'recommend',
+  seen: 'seen'
+};
+
 exports.Prisma.SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -145,7 +153,8 @@ exports.Prisma.NullsOrder = {
 
 
 exports.Prisma.ModelName = {
-  ratings: 'ratings'
+  ratings: 'ratings',
+  rating: 'rating'
 };
 
 /**

@@ -18,6 +18,11 @@ export type PrismaPromise<T> = $Public.PrismaPromise<T>
  * 
  */
 export type ratings = $Result.DefaultSelection<Prisma.$ratingsPayload>
+/**
+ * Model rating
+ * 
+ */
+export type rating = $Result.DefaultSelection<Prisma.$ratingPayload>
 
 /**
  * ##  Prisma Client ʲˢ
@@ -153,6 +158,16 @@ export class PrismaClient<
     * ```
     */
   get ratings(): Prisma.ratingsDelegate<ExtArgs, ClientOptions>;
+
+  /**
+   * `prisma.rating`: Exposes CRUD operations for the **rating** model.
+    * Example usage:
+    * ```ts
+    * // Fetch zero or more Ratings
+    * const ratings = await prisma.rating.findMany()
+    * ```
+    */
+  get rating(): Prisma.ratingDelegate<ExtArgs, ClientOptions>;
 }
 
 export namespace Prisma {
@@ -593,7 +608,8 @@ export namespace Prisma {
 
 
   export const ModelName: {
-    ratings: 'ratings'
+    ratings: 'ratings',
+    rating: 'rating'
   };
 
   export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -612,7 +628,7 @@ export namespace Prisma {
       omit: GlobalOmitOptions
     }
     meta: {
-      modelProps: "ratings"
+      modelProps: "ratings" | "rating"
       txIsolationLevel: Prisma.TransactionIsolationLevel
     }
     model: {
@@ -687,6 +703,80 @@ export namespace Prisma {
           count: {
             args: Prisma.ratingsCountArgs<ExtArgs>
             result: $Utils.Optional<RatingsCountAggregateOutputType> | number
+          }
+        }
+      }
+      rating: {
+        payload: Prisma.$ratingPayload<ExtArgs>
+        fields: Prisma.ratingFieldRefs
+        operations: {
+          findUnique: {
+            args: Prisma.ratingFindUniqueArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$ratingPayload> | null
+          }
+          findUniqueOrThrow: {
+            args: Prisma.ratingFindUniqueOrThrowArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$ratingPayload>
+          }
+          findFirst: {
+            args: Prisma.ratingFindFirstArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$ratingPayload> | null
+          }
+          findFirstOrThrow: {
+            args: Prisma.ratingFindFirstOrThrowArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$ratingPayload>
+          }
+          findMany: {
+            args: Prisma.ratingFindManyArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$ratingPayload>[]
+          }
+          create: {
+            args: Prisma.ratingCreateArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$ratingPayload>
+          }
+          createMany: {
+            args: Prisma.ratingCreateManyArgs<ExtArgs>
+            result: BatchPayload
+          }
+          createManyAndReturn: {
+            args: Prisma.ratingCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$ratingPayload>[]
+          }
+          delete: {
+            args: Prisma.ratingDeleteArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$ratingPayload>
+          }
+          update: {
+            args: Prisma.ratingUpdateArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$ratingPayload>
+          }
+          deleteMany: {
+            args: Prisma.ratingDeleteManyArgs<ExtArgs>
+            result: BatchPayload
+          }
+          updateMany: {
+            args: Prisma.ratingUpdateManyArgs<ExtArgs>
+            result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.ratingUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$ratingPayload>[]
+          }
+          upsert: {
+            args: Prisma.ratingUpsertArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$ratingPayload>
+          }
+          aggregate: {
+            args: Prisma.RatingAggregateArgs<ExtArgs>
+            result: $Utils.Optional<AggregateRating>
+          }
+          groupBy: {
+            args: Prisma.ratingGroupByArgs<ExtArgs>
+            result: $Utils.Optional<RatingGroupByOutputType>[]
+          }
+          count: {
+            args: Prisma.ratingCountArgs<ExtArgs>
+            result: $Utils.Optional<RatingCountAggregateOutputType> | number
           }
         }
       }
@@ -775,6 +865,7 @@ export namespace Prisma {
   }
   export type GlobalOmitConfig = {
     ratings?: ratingsOmit
+    rating?: ratingOmit
   }
 
   /* Types for Logging */
@@ -1907,6 +1998,1039 @@ export namespace Prisma {
 
 
   /**
+   * Model rating
+   */
+
+  export type AggregateRating = {
+    _count: RatingCountAggregateOutputType | null
+    _avg: RatingAvgAggregateOutputType | null
+    _sum: RatingSumAggregateOutputType | null
+    _min: RatingMinAggregateOutputType | null
+    _max: RatingMaxAggregateOutputType | null
+  }
+
+  export type RatingAvgAggregateOutputType = {
+    id: number | null
+    movie_id: number | null
+  }
+
+  export type RatingSumAggregateOutputType = {
+    id: number | null
+    movie_id: number | null
+  }
+
+  export type RatingMinAggregateOutputType = {
+    id: number | null
+    user_id: string | null
+    movie_id: number | null
+    recommend: string | null
+    seen: string | null
+  }
+
+  export type RatingMaxAggregateOutputType = {
+    id: number | null
+    user_id: string | null
+    movie_id: number | null
+    recommend: string | null
+    seen: string | null
+  }
+
+  export type RatingCountAggregateOutputType = {
+    id: number
+    user_id: number
+    movie_id: number
+    recommend: number
+    seen: number
+    _all: number
+  }
+
+
+  export type RatingAvgAggregateInputType = {
+    id?: true
+    movie_id?: true
+  }
+
+  export type RatingSumAggregateInputType = {
+    id?: true
+    movie_id?: true
+  }
+
+  export type RatingMinAggregateInputType = {
+    id?: true
+    user_id?: true
+    movie_id?: true
+    recommend?: true
+    seen?: true
+  }
+
+  export type RatingMaxAggregateInputType = {
+    id?: true
+    user_id?: true
+    movie_id?: true
+    recommend?: true
+    seen?: true
+  }
+
+  export type RatingCountAggregateInputType = {
+    id?: true
+    user_id?: true
+    movie_id?: true
+    recommend?: true
+    seen?: true
+    _all?: true
+  }
+
+  export type RatingAggregateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Filter which rating to aggregate.
+     */
+    where?: ratingWhereInput
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/sorting Sorting Docs}
+     * 
+     * Determine the order of ratings to fetch.
+     */
+    orderBy?: ratingOrderByWithRelationInput | ratingOrderByWithRelationInput[]
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination#cursor-based-pagination Cursor Docs}
+     * 
+     * Sets the start position
+     */
+    cursor?: ratingWhereUniqueInput
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
+     * 
+     * Take `±n` ratings from the position of the cursor.
+     */
+    take?: number
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
+     * 
+     * Skip the first `n` ratings.
+     */
+    skip?: number
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
+     * 
+     * Count returned ratings
+    **/
+    _count?: true | RatingCountAggregateInputType
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
+     * 
+     * Select which fields to average
+    **/
+    _avg?: RatingAvgAggregateInputType
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
+     * 
+     * Select which fields to sum
+    **/
+    _sum?: RatingSumAggregateInputType
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
+     * 
+     * Select which fields to find the minimum value
+    **/
+    _min?: RatingMinAggregateInputType
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
+     * 
+     * Select which fields to find the maximum value
+    **/
+    _max?: RatingMaxAggregateInputType
+  }
+
+  export type GetRatingAggregateType<T extends RatingAggregateArgs> = {
+        [P in keyof T & keyof AggregateRating]: P extends '_count' | 'count'
+      ? T[P] extends true
+        ? number
+        : GetScalarType<T[P], AggregateRating[P]>
+      : GetScalarType<T[P], AggregateRating[P]>
+  }
+
+
+
+
+  export type ratingGroupByArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    where?: ratingWhereInput
+    orderBy?: ratingOrderByWithAggregationInput | ratingOrderByWithAggregationInput[]
+    by: RatingScalarFieldEnum[] | RatingScalarFieldEnum
+    having?: ratingScalarWhereWithAggregatesInput
+    take?: number
+    skip?: number
+    _count?: RatingCountAggregateInputType | true
+    _avg?: RatingAvgAggregateInputType
+    _sum?: RatingSumAggregateInputType
+    _min?: RatingMinAggregateInputType
+    _max?: RatingMaxAggregateInputType
+  }
+
+  export type RatingGroupByOutputType = {
+    id: number
+    user_id: string | null
+    movie_id: number | null
+    recommend: string | null
+    seen: string | null
+    _count: RatingCountAggregateOutputType | null
+    _avg: RatingAvgAggregateOutputType | null
+    _sum: RatingSumAggregateOutputType | null
+    _min: RatingMinAggregateOutputType | null
+    _max: RatingMaxAggregateOutputType | null
+  }
+
+  type GetRatingGroupByPayload<T extends ratingGroupByArgs> = Prisma.PrismaPromise<
+    Array<
+      PickEnumerable<RatingGroupByOutputType, T['by']> &
+        {
+          [P in ((keyof T) & (keyof RatingGroupByOutputType))]: P extends '_count'
+            ? T[P] extends boolean
+              ? number
+              : GetScalarType<T[P], RatingGroupByOutputType[P]>
+            : GetScalarType<T[P], RatingGroupByOutputType[P]>
+        }
+      >
+    >
+
+
+  export type ratingSelect<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    id?: boolean
+    user_id?: boolean
+    movie_id?: boolean
+    recommend?: boolean
+    seen?: boolean
+  }, ExtArgs["result"]["rating"]>
+
+  export type ratingSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    id?: boolean
+    user_id?: boolean
+    movie_id?: boolean
+    recommend?: boolean
+    seen?: boolean
+  }, ExtArgs["result"]["rating"]>
+
+  export type ratingSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    id?: boolean
+    user_id?: boolean
+    movie_id?: boolean
+    recommend?: boolean
+    seen?: boolean
+  }, ExtArgs["result"]["rating"]>
+
+  export type ratingSelectScalar = {
+    id?: boolean
+    user_id?: boolean
+    movie_id?: boolean
+    recommend?: boolean
+    seen?: boolean
+  }
+
+  export type ratingOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "user_id" | "movie_id" | "recommend" | "seen", ExtArgs["result"]["rating"]>
+
+  export type $ratingPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    name: "rating"
+    objects: {}
+    scalars: $Extensions.GetPayloadResult<{
+      id: number
+      user_id: string | null
+      movie_id: number | null
+      recommend: string | null
+      seen: string | null
+    }, ExtArgs["result"]["rating"]>
+    composites: {}
+  }
+
+  type ratingGetPayload<S extends boolean | null | undefined | ratingDefaultArgs> = $Result.GetResult<Prisma.$ratingPayload, S>
+
+  type ratingCountArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> =
+    Omit<ratingFindManyArgs, 'select' | 'include' | 'distinct' | 'omit'> & {
+      select?: RatingCountAggregateInputType | true
+    }
+
+  export interface ratingDelegate<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs, GlobalOmitOptions = {}> {
+    [K: symbol]: { types: Prisma.TypeMap<ExtArgs>['model']['rating'], meta: { name: 'rating' } }
+    /**
+     * Find zero or one Rating that matches the filter.
+     * @param {ratingFindUniqueArgs} args - Arguments to find a Rating
+     * @example
+     * // Get one Rating
+     * const rating = await prisma.rating.findUnique({
+     *   where: {
+     *     // ... provide filter here
+     *   }
+     * })
+     */
+    findUnique<T extends ratingFindUniqueArgs>(args: SelectSubset<T, ratingFindUniqueArgs<ExtArgs>>): Prisma__ratingClient<$Result.GetResult<Prisma.$ratingPayload<ExtArgs>, T, "findUnique", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
+
+    /**
+     * Find one Rating that matches the filter or throw an error with `error.code='P2025'`
+     * if no matches were found.
+     * @param {ratingFindUniqueOrThrowArgs} args - Arguments to find a Rating
+     * @example
+     * // Get one Rating
+     * const rating = await prisma.rating.findUniqueOrThrow({
+     *   where: {
+     *     // ... provide filter here
+     *   }
+     * })
+     */
+    findUniqueOrThrow<T extends ratingFindUniqueOrThrowArgs>(args: SelectSubset<T, ratingFindUniqueOrThrowArgs<ExtArgs>>): Prisma__ratingClient<$Result.GetResult<Prisma.$ratingPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
+
+    /**
+     * Find the first Rating that matches the filter.
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * @param {ratingFindFirstArgs} args - Arguments to find a Rating
+     * @example
+     * // Get one Rating
+     * const rating = await prisma.rating.findFirst({
+     *   where: {
+     *     // ... provide filter here
+     *   }
+     * })
+     */
+    findFirst<T extends ratingFindFirstArgs>(args?: SelectSubset<T, ratingFindFirstArgs<ExtArgs>>): Prisma__ratingClient<$Result.GetResult<Prisma.$ratingPayload<ExtArgs>, T, "findFirst", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
+
+    /**
+     * Find the first Rating that matches the filter or
+     * throw `PrismaKnownClientError` with `P2025` code if no matches were found.
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * @param {ratingFindFirstOrThrowArgs} args - Arguments to find a Rating
+     * @example
+     * // Get one Rating
+     * const rating = await prisma.rating.findFirstOrThrow({
+     *   where: {
+     *     // ... provide filter here
+     *   }
+     * })
+     */
+    findFirstOrThrow<T extends ratingFindFirstOrThrowArgs>(args?: SelectSubset<T, ratingFindFirstOrThrowArgs<ExtArgs>>): Prisma__ratingClient<$Result.GetResult<Prisma.$ratingPayload<ExtArgs>, T, "findFirstOrThrow", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
+
+    /**
+     * Find zero or more Ratings that matches the filter.
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * @param {ratingFindManyArgs} args - Arguments to filter and select certain fields only.
+     * @example
+     * // Get all Ratings
+     * const ratings = await prisma.rating.findMany()
+     * 
+     * // Get first 10 Ratings
+     * const ratings = await prisma.rating.findMany({ take: 10 })
+     * 
+     * // Only select the `id`
+     * const ratingWithIdOnly = await prisma.rating.findMany({ select: { id: true } })
+     * 
+     */
+    findMany<T extends ratingFindManyArgs>(args?: SelectSubset<T, ratingFindManyArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$ratingPayload<ExtArgs>, T, "findMany", GlobalOmitOptions>>
+
+    /**
+     * Create a Rating.
+     * @param {ratingCreateArgs} args - Arguments to create a Rating.
+     * @example
+     * // Create one Rating
+     * const Rating = await prisma.rating.create({
+     *   data: {
+     *     // ... data to create a Rating
+     *   }
+     * })
+     * 
+     */
+    create<T extends ratingCreateArgs>(args: SelectSubset<T, ratingCreateArgs<ExtArgs>>): Prisma__ratingClient<$Result.GetResult<Prisma.$ratingPayload<ExtArgs>, T, "create", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
+
+    /**
+     * Create many Ratings.
+     * @param {ratingCreateManyArgs} args - Arguments to create many Ratings.
+     * @example
+     * // Create many Ratings
+     * const rating = await prisma.rating.createMany({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     *     
+     */
+    createMany<T extends ratingCreateManyArgs>(args?: SelectSubset<T, ratingCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Create many Ratings and returns the data saved in the database.
+     * @param {ratingCreateManyAndReturnArgs} args - Arguments to create many Ratings.
+     * @example
+     * // Create many Ratings
+     * const rating = await prisma.rating.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Ratings and only return the `id`
+     * const ratingWithIdOnly = await prisma.rating.createManyAndReturn({
+     *   select: { id: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends ratingCreateManyAndReturnArgs>(args?: SelectSubset<T, ratingCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$ratingPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
+     * Delete a Rating.
+     * @param {ratingDeleteArgs} args - Arguments to delete one Rating.
+     * @example
+     * // Delete one Rating
+     * const Rating = await prisma.rating.delete({
+     *   where: {
+     *     // ... filter to delete one Rating
+     *   }
+     * })
+     * 
+     */
+    delete<T extends ratingDeleteArgs>(args: SelectSubset<T, ratingDeleteArgs<ExtArgs>>): Prisma__ratingClient<$Result.GetResult<Prisma.$ratingPayload<ExtArgs>, T, "delete", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
+
+    /**
+     * Update one Rating.
+     * @param {ratingUpdateArgs} args - Arguments to update one Rating.
+     * @example
+     * // Update one Rating
+     * const rating = await prisma.rating.update({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: {
+     *     // ... provide data here
+     *   }
+     * })
+     * 
+     */
+    update<T extends ratingUpdateArgs>(args: SelectSubset<T, ratingUpdateArgs<ExtArgs>>): Prisma__ratingClient<$Result.GetResult<Prisma.$ratingPayload<ExtArgs>, T, "update", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
+
+    /**
+     * Delete zero or more Ratings.
+     * @param {ratingDeleteManyArgs} args - Arguments to filter Ratings to delete.
+     * @example
+     * // Delete a few Ratings
+     * const { count } = await prisma.rating.deleteMany({
+     *   where: {
+     *     // ... provide filter here
+     *   }
+     * })
+     * 
+     */
+    deleteMany<T extends ratingDeleteManyArgs>(args?: SelectSubset<T, ratingDeleteManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Ratings.
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * @param {ratingUpdateManyArgs} args - Arguments to update one or more rows.
+     * @example
+     * // Update many Ratings
+     * const rating = await prisma.rating.updateMany({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: {
+     *     // ... provide data here
+     *   }
+     * })
+     * 
+     */
+    updateMany<T extends ratingUpdateManyArgs>(args: SelectSubset<T, ratingUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Ratings and returns the data updated in the database.
+     * @param {ratingUpdateManyAndReturnArgs} args - Arguments to update many Ratings.
+     * @example
+     * // Update many Ratings
+     * const rating = await prisma.rating.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Ratings and only return the `id`
+     * const ratingWithIdOnly = await prisma.rating.updateManyAndReturn({
+     *   select: { id: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends ratingUpdateManyAndReturnArgs>(args: SelectSubset<T, ratingUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$ratingPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
+
+    /**
+     * Create or update one Rating.
+     * @param {ratingUpsertArgs} args - Arguments to update or create a Rating.
+     * @example
+     * // Update or create a Rating
+     * const rating = await prisma.rating.upsert({
+     *   create: {
+     *     // ... data to create a Rating
+     *   },
+     *   update: {
+     *     // ... in case it already exists, update
+     *   },
+     *   where: {
+     *     // ... the filter for the Rating we want to update
+     *   }
+     * })
+     */
+    upsert<T extends ratingUpsertArgs>(args: SelectSubset<T, ratingUpsertArgs<ExtArgs>>): Prisma__ratingClient<$Result.GetResult<Prisma.$ratingPayload<ExtArgs>, T, "upsert", GlobalOmitOptions>, never, ExtArgs, GlobalOmitOptions>
+
+
+    /**
+     * Count the number of Ratings.
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * @param {ratingCountArgs} args - Arguments to filter Ratings to count.
+     * @example
+     * // Count the number of Ratings
+     * const count = await prisma.rating.count({
+     *   where: {
+     *     // ... the filter for the Ratings we want to count
+     *   }
+     * })
+    **/
+    count<T extends ratingCountArgs>(
+      args?: Subset<T, ratingCountArgs>,
+    ): Prisma.PrismaPromise<
+      T extends $Utils.Record<'select', any>
+        ? T['select'] extends true
+          ? number
+          : GetScalarType<T['select'], RatingCountAggregateOutputType>
+        : number
+    >
+
+    /**
+     * Allows you to perform aggregations operations on a Rating.
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * @param {RatingAggregateArgs} args - Select which aggregations you would like to apply and on what fields.
+     * @example
+     * // Ordered by age ascending
+     * // Where email contains prisma.io
+     * // Limited to the 10 users
+     * const aggregations = await prisma.user.aggregate({
+     *   _avg: {
+     *     age: true,
+     *   },
+     *   where: {
+     *     email: {
+     *       contains: "prisma.io",
+     *     },
+     *   },
+     *   orderBy: {
+     *     age: "asc",
+     *   },
+     *   take: 10,
+     * })
+    **/
+    aggregate<T extends RatingAggregateArgs>(args: Subset<T, RatingAggregateArgs>): Prisma.PrismaPromise<GetRatingAggregateType<T>>
+
+    /**
+     * Group by Rating.
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * @param {ratingGroupByArgs} args - Group by arguments.
+     * @example
+     * // Group by city, order by createdAt, get count
+     * const result = await prisma.user.groupBy({
+     *   by: ['city', 'createdAt'],
+     *   orderBy: {
+     *     createdAt: true
+     *   },
+     *   _count: {
+     *     _all: true
+     *   },
+     * })
+     * 
+    **/
+    groupBy<
+      T extends ratingGroupByArgs,
+      HasSelectOrTake extends Or<
+        Extends<'skip', Keys<T>>,
+        Extends<'take', Keys<T>>
+      >,
+      OrderByArg extends True extends HasSelectOrTake
+        ? { orderBy: ratingGroupByArgs['orderBy'] }
+        : { orderBy?: ratingGroupByArgs['orderBy'] },
+      OrderFields extends ExcludeUnderscoreKeys<Keys<MaybeTupleToUnion<T['orderBy']>>>,
+      ByFields extends MaybeTupleToUnion<T['by']>,
+      ByValid extends Has<ByFields, OrderFields>,
+      HavingFields extends GetHavingFields<T['having']>,
+      HavingValid extends Has<ByFields, HavingFields>,
+      ByEmpty extends T['by'] extends never[] ? True : False,
+      InputErrors extends ByEmpty extends True
+      ? `Error: "by" must not be empty.`
+      : HavingValid extends False
+      ? {
+          [P in HavingFields]: P extends ByFields
+            ? never
+            : P extends string
+            ? `Error: Field "${P}" used in "having" needs to be provided in "by".`
+            : [
+                Error,
+                'Field ',
+                P,
+                ` in "having" needs to be provided in "by"`,
+              ]
+        }[HavingFields]
+      : 'take' extends Keys<T>
+      ? 'orderBy' extends Keys<T>
+        ? ByValid extends True
+          ? {}
+          : {
+              [P in OrderFields]: P extends ByFields
+                ? never
+                : `Error: Field "${P}" in "orderBy" needs to be provided in "by"`
+            }[OrderFields]
+        : 'Error: If you provide "take", you also need to provide "orderBy"'
+      : 'skip' extends Keys<T>
+      ? 'orderBy' extends Keys<T>
+        ? ByValid extends True
+          ? {}
+          : {
+              [P in OrderFields]: P extends ByFields
+                ? never
+                : `Error: Field "${P}" in "orderBy" needs to be provided in "by"`
+            }[OrderFields]
+        : 'Error: If you provide "skip", you also need to provide "orderBy"'
+      : ByValid extends True
+      ? {}
+      : {
+          [P in OrderFields]: P extends ByFields
+            ? never
+            : `Error: Field "${P}" in "orderBy" needs to be provided in "by"`
+        }[OrderFields]
+    >(args: SubsetIntersection<T, ratingGroupByArgs, OrderByArg> & InputErrors): {} extends InputErrors ? GetRatingGroupByPayload<T> : Prisma.PrismaPromise<InputErrors>
+  /**
+   * Fields of the rating model
+   */
+  readonly fields: ratingFieldRefs;
+  }
+
+  /**
+   * The delegate class that acts as a "Promise-like" for rating.
+   * Why is this prefixed with `Prisma__`?
+   * Because we want to prevent naming conflicts as mentioned in
+   * https://github.com/prisma/prisma-client-js/issues/707
+   */
+  export interface Prisma__ratingClient<T, Null = never, ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs, GlobalOmitOptions = {}> extends Prisma.PrismaPromise<T> {
+    readonly [Symbol.toStringTag]: "PrismaPromise"
+    /**
+     * Attaches callbacks for the resolution and/or rejection of the Promise.
+     * @param onfulfilled The callback to execute when the Promise is resolved.
+     * @param onrejected The callback to execute when the Promise is rejected.
+     * @returns A Promise for the completion of which ever callback is executed.
+     */
+    then<TResult1 = T, TResult2 = never>(onfulfilled?: ((value: T) => TResult1 | PromiseLike<TResult1>) | undefined | null, onrejected?: ((reason: any) => TResult2 | PromiseLike<TResult2>) | undefined | null): $Utils.JsPromise<TResult1 | TResult2>
+    /**
+     * Attaches a callback for only the rejection of the Promise.
+     * @param onrejected The callback to execute when the Promise is rejected.
+     * @returns A Promise for the completion of the callback.
+     */
+    catch<TResult = never>(onrejected?: ((reason: any) => TResult | PromiseLike<TResult>) | undefined | null): $Utils.JsPromise<T | TResult>
+    /**
+     * Attaches a callback that is invoked when the Promise is settled (fulfilled or rejected). The
+     * resolved value cannot be modified from the callback.
+     * @param onfinally The callback to execute when the Promise is settled (fulfilled or rejected).
+     * @returns A Promise for the completion of the callback.
+     */
+    finally(onfinally?: (() => void) | undefined | null): $Utils.JsPromise<T>
+  }
+
+
+
+
+  /**
+   * Fields of the rating model
+   */
+  interface ratingFieldRefs {
+    readonly id: FieldRef<"rating", 'Int'>
+    readonly user_id: FieldRef<"rating", 'String'>
+    readonly movie_id: FieldRef<"rating", 'Int'>
+    readonly recommend: FieldRef<"rating", 'String'>
+    readonly seen: FieldRef<"rating", 'String'>
+  }
+    
+
+  // Custom InputTypes
+  /**
+   * rating findUnique
+   */
+  export type ratingFindUniqueArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rating
+     */
+    select?: ratingSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the rating
+     */
+    omit?: ratingOmit<ExtArgs> | null
+    /**
+     * Filter, which rating to fetch.
+     */
+    where: ratingWhereUniqueInput
+  }
+
+  /**
+   * rating findUniqueOrThrow
+   */
+  export type ratingFindUniqueOrThrowArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rating
+     */
+    select?: ratingSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the rating
+     */
+    omit?: ratingOmit<ExtArgs> | null
+    /**
+     * Filter, which rating to fetch.
+     */
+    where: ratingWhereUniqueInput
+  }
+
+  /**
+   * rating findFirst
+   */
+  export type ratingFindFirstArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rating
+     */
+    select?: ratingSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the rating
+     */
+    omit?: ratingOmit<ExtArgs> | null
+    /**
+     * Filter, which rating to fetch.
+     */
+    where?: ratingWhereInput
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/sorting Sorting Docs}
+     * 
+     * Determine the order of ratings to fetch.
+     */
+    orderBy?: ratingOrderByWithRelationInput | ratingOrderByWithRelationInput[]
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination#cursor-based-pagination Cursor Docs}
+     * 
+     * Sets the position for searching for ratings.
+     */
+    cursor?: ratingWhereUniqueInput
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
+     * 
+     * Take `±n` ratings from the position of the cursor.
+     */
+    take?: number
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
+     * 
+     * Skip the first `n` ratings.
+     */
+    skip?: number
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/distinct Distinct Docs}
+     * 
+     * Filter by unique combinations of ratings.
+     */
+    distinct?: RatingScalarFieldEnum | RatingScalarFieldEnum[]
+  }
+
+  /**
+   * rating findFirstOrThrow
+   */
+  export type ratingFindFirstOrThrowArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rating
+     */
+    select?: ratingSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the rating
+     */
+    omit?: ratingOmit<ExtArgs> | null
+    /**
+     * Filter, which rating to fetch.
+     */
+    where?: ratingWhereInput
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/sorting Sorting Docs}
+     * 
+     * Determine the order of ratings to fetch.
+     */
+    orderBy?: ratingOrderByWithRelationInput | ratingOrderByWithRelationInput[]
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination#cursor-based-pagination Cursor Docs}
+     * 
+     * Sets the position for searching for ratings.
+     */
+    cursor?: ratingWhereUniqueInput
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
+     * 
+     * Take `±n` ratings from the position of the cursor.
+     */
+    take?: number
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
+     * 
+     * Skip the first `n` ratings.
+     */
+    skip?: number
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/distinct Distinct Docs}
+     * 
+     * Filter by unique combinations of ratings.
+     */
+    distinct?: RatingScalarFieldEnum | RatingScalarFieldEnum[]
+  }
+
+  /**
+   * rating findMany
+   */
+  export type ratingFindManyArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rating
+     */
+    select?: ratingSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the rating
+     */
+    omit?: ratingOmit<ExtArgs> | null
+    /**
+     * Filter, which ratings to fetch.
+     */
+    where?: ratingWhereInput
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/sorting Sorting Docs}
+     * 
+     * Determine the order of ratings to fetch.
+     */
+    orderBy?: ratingOrderByWithRelationInput | ratingOrderByWithRelationInput[]
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination#cursor-based-pagination Cursor Docs}
+     * 
+     * Sets the position for listing ratings.
+     */
+    cursor?: ratingWhereUniqueInput
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
+     * 
+     * Take `±n` ratings from the position of the cursor.
+     */
+    take?: number
+    /**
+     * {@link https://www.prisma.io/docs/concepts/components/prisma-client/pagination Pagination Docs}
+     * 
+     * Skip the first `n` ratings.
+     */
+    skip?: number
+    distinct?: RatingScalarFieldEnum | RatingScalarFieldEnum[]
+  }
+
+  /**
+   * rating create
+   */
+  export type ratingCreateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rating
+     */
+    select?: ratingSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the rating
+     */
+    omit?: ratingOmit<ExtArgs> | null
+    /**
+     * The data needed to create a rating.
+     */
+    data?: XOR<ratingCreateInput, ratingUncheckedCreateInput>
+  }
+
+  /**
+   * rating createMany
+   */
+  export type ratingCreateManyArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * The data used to create many ratings.
+     */
+    data: ratingCreateManyInput | ratingCreateManyInput[]
+    skipDuplicates?: boolean
+  }
+
+  /**
+   * rating createManyAndReturn
+   */
+  export type ratingCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rating
+     */
+    select?: ratingSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the rating
+     */
+    omit?: ratingOmit<ExtArgs> | null
+    /**
+     * The data used to create many ratings.
+     */
+    data: ratingCreateManyInput | ratingCreateManyInput[]
+    skipDuplicates?: boolean
+  }
+
+  /**
+   * rating update
+   */
+  export type ratingUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rating
+     */
+    select?: ratingSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the rating
+     */
+    omit?: ratingOmit<ExtArgs> | null
+    /**
+     * The data needed to update a rating.
+     */
+    data: XOR<ratingUpdateInput, ratingUncheckedUpdateInput>
+    /**
+     * Choose, which rating to update.
+     */
+    where: ratingWhereUniqueInput
+  }
+
+  /**
+   * rating updateMany
+   */
+  export type ratingUpdateManyArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * The data used to update ratings.
+     */
+    data: XOR<ratingUpdateManyMutationInput, ratingUncheckedUpdateManyInput>
+    /**
+     * Filter which ratings to update
+     */
+    where?: ratingWhereInput
+    /**
+     * Limit how many ratings to update.
+     */
+    limit?: number
+  }
+
+  /**
+   * rating updateManyAndReturn
+   */
+  export type ratingUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rating
+     */
+    select?: ratingSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the rating
+     */
+    omit?: ratingOmit<ExtArgs> | null
+    /**
+     * The data used to update ratings.
+     */
+    data: XOR<ratingUpdateManyMutationInput, ratingUncheckedUpdateManyInput>
+    /**
+     * Filter which ratings to update
+     */
+    where?: ratingWhereInput
+    /**
+     * Limit how many ratings to update.
+     */
+    limit?: number
+  }
+
+  /**
+   * rating upsert
+   */
+  export type ratingUpsertArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rating
+     */
+    select?: ratingSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the rating
+     */
+    omit?: ratingOmit<ExtArgs> | null
+    /**
+     * The filter to search for the rating to update in case it exists.
+     */
+    where: ratingWhereUniqueInput
+    /**
+     * In case the rating found by the `where` argument doesn't exist, create a new rating with this data.
+     */
+    create: XOR<ratingCreateInput, ratingUncheckedCreateInput>
+    /**
+     * In case the rating was found with the provided `where` argument, update it with this data.
+     */
+    update: XOR<ratingUpdateInput, ratingUncheckedUpdateInput>
+  }
+
+  /**
+   * rating delete
+   */
+  export type ratingDeleteArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rating
+     */
+    select?: ratingSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the rating
+     */
+    omit?: ratingOmit<ExtArgs> | null
+    /**
+     * Filter which rating to delete.
+     */
+    where: ratingWhereUniqueInput
+  }
+
+  /**
+   * rating deleteMany
+   */
+  export type ratingDeleteManyArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Filter which ratings to delete
+     */
+    where?: ratingWhereInput
+    /**
+     * Limit how many ratings to delete.
+     */
+    limit?: number
+  }
+
+  /**
+   * rating without action
+   */
+  export type ratingDefaultArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rating
+     */
+    select?: ratingSelect<ExtArgs> | null
+    /**
+     * Omit specific fields from the rating
+     */
+    omit?: ratingOmit<ExtArgs> | null
+  }
+
+
+  /**
    * Enums
    */
 
@@ -1929,6 +3053,17 @@ export namespace Prisma {
   };
 
   export type RatingsScalarFieldEnum = (typeof RatingsScalarFieldEnum)[keyof typeof RatingsScalarFieldEnum]
+
+
+  export const RatingScalarFieldEnum: {
+    id: 'id',
+    user_id: 'user_id',
+    movie_id: 'movie_id',
+    recommend: 'recommend',
+    seen: 'seen'
+  };
+
+  export type RatingScalarFieldEnum = (typeof RatingScalarFieldEnum)[keyof typeof RatingScalarFieldEnum]
 
 
   export const SortOrder: {
@@ -2059,6 +3194,60 @@ export namespace Prisma {
     seen?: StringNullableWithAggregatesFilter<"ratings"> | string | null
   }
 
+  export type ratingWhereInput = {
+    AND?: ratingWhereInput | ratingWhereInput[]
+    OR?: ratingWhereInput[]
+    NOT?: ratingWhereInput | ratingWhereInput[]
+    id?: IntFilter<"rating"> | number
+    user_id?: StringNullableFilter<"rating"> | string | null
+    movie_id?: IntNullableFilter<"rating"> | number | null
+    recommend?: StringNullableFilter<"rating"> | string | null
+    seen?: StringNullableFilter<"rating"> | string | null
+  }
+
+  export type ratingOrderByWithRelationInput = {
+    id?: SortOrder
+    user_id?: SortOrderInput | SortOrder
+    movie_id?: SortOrderInput | SortOrder
+    recommend?: SortOrderInput | SortOrder
+    seen?: SortOrderInput | SortOrder
+  }
+
+  export type ratingWhereUniqueInput = Prisma.AtLeast<{
+    id?: number
+    AND?: ratingWhereInput | ratingWhereInput[]
+    OR?: ratingWhereInput[]
+    NOT?: ratingWhereInput | ratingWhereInput[]
+    user_id?: StringNullableFilter<"rating"> | string | null
+    movie_id?: IntNullableFilter<"rating"> | number | null
+    recommend?: StringNullableFilter<"rating"> | string | null
+    seen?: StringNullableFilter<"rating"> | string | null
+  }, "id">
+
+  export type ratingOrderByWithAggregationInput = {
+    id?: SortOrder
+    user_id?: SortOrderInput | SortOrder
+    movie_id?: SortOrderInput | SortOrder
+    recommend?: SortOrderInput | SortOrder
+    seen?: SortOrderInput | SortOrder
+    _count?: ratingCountOrderByAggregateInput
+    _avg?: ratingAvgOrderByAggregateInput
+    _max?: ratingMaxOrderByAggregateInput
+    _min?: ratingMinOrderByAggregateInput
+    _sum?: ratingSumOrderByAggregateInput
+  }
+
+  export type ratingScalarWhereWithAggregatesInput = {
+    AND?: ratingScalarWhereWithAggregatesInput | ratingScalarWhereWithAggregatesInput[]
+    OR?: ratingScalarWhereWithAggregatesInput[]
+    NOT?: ratingScalarWhereWithAggregatesInput | ratingScalarWhereWithAggregatesInput[]
+    id?: IntWithAggregatesFilter<"rating"> | number
+    user_id?: StringNullableWithAggregatesFilter<"rating"> | string | null
+    movie_id?: IntNullableWithAggregatesFilter<"rating"> | number | null
+    recommend?: StringNullableWithAggregatesFilter<"rating"> | string | null
+    seen?: StringNullableWithAggregatesFilter<"rating"> | string | null
+  }
+
   export type ratingsCreateInput = {
     user_id?: number | null
     movie_id?: number | null
@@ -2107,6 +3296,59 @@ export namespace Prisma {
   export type ratingsUncheckedUpdateManyInput = {
     id?: IntFieldUpdateOperationsInput | number
     user_id?: NullableIntFieldUpdateOperationsInput | number | null
+    movie_id?: NullableIntFieldUpdateOperationsInput | number | null
+    recommend?: NullableStringFieldUpdateOperationsInput | string | null
+    seen?: NullableStringFieldUpdateOperationsInput | string | null
+  }
+
+  export type ratingCreateInput = {
+    user_id?: string | null
+    movie_id?: number | null
+    recommend?: string | null
+    seen?: string | null
+  }
+
+  export type ratingUncheckedCreateInput = {
+    id?: number
+    user_id?: string | null
+    movie_id?: number | null
+    recommend?: string | null
+    seen?: string | null
+  }
+
+  export type ratingUpdateInput = {
+    user_id?: NullableStringFieldUpdateOperationsInput | string | null
+    movie_id?: NullableIntFieldUpdateOperationsInput | number | null
+    recommend?: NullableStringFieldUpdateOperationsInput | string | null
+    seen?: NullableStringFieldUpdateOperationsInput | string | null
+  }
+
+  export type ratingUncheckedUpdateInput = {
+    id?: IntFieldUpdateOperationsInput | number
+    user_id?: NullableStringFieldUpdateOperationsInput | string | null
+    movie_id?: NullableIntFieldUpdateOperationsInput | number | null
+    recommend?: NullableStringFieldUpdateOperationsInput | string | null
+    seen?: NullableStringFieldUpdateOperationsInput | string | null
+  }
+
+  export type ratingCreateManyInput = {
+    id?: number
+    user_id?: string | null
+    movie_id?: number | null
+    recommend?: string | null
+    seen?: string | null
+  }
+
+  export type ratingUpdateManyMutationInput = {
+    user_id?: NullableStringFieldUpdateOperationsInput | string | null
+    movie_id?: NullableIntFieldUpdateOperationsInput | number | null
+    recommend?: NullableStringFieldUpdateOperationsInput | string | null
+    seen?: NullableStringFieldUpdateOperationsInput | string | null
+  }
+
+  export type ratingUncheckedUpdateManyInput = {
+    id?: IntFieldUpdateOperationsInput | number
+    user_id?: NullableStringFieldUpdateOperationsInput | string | null
     movie_id?: NullableIntFieldUpdateOperationsInput | number | null
     recommend?: NullableStringFieldUpdateOperationsInput | string | null
     seen?: NullableStringFieldUpdateOperationsInput | string | null
@@ -2238,6 +3480,40 @@ export namespace Prisma {
     _count?: NestedIntNullableFilter<$PrismaModel>
     _min?: NestedStringNullableFilter<$PrismaModel>
     _max?: NestedStringNullableFilter<$PrismaModel>
+  }
+
+  export type ratingCountOrderByAggregateInput = {
+    id?: SortOrder
+    user_id?: SortOrder
+    movie_id?: SortOrder
+    recommend?: SortOrder
+    seen?: SortOrder
+  }
+
+  export type ratingAvgOrderByAggregateInput = {
+    id?: SortOrder
+    movie_id?: SortOrder
+  }
+
+  export type ratingMaxOrderByAggregateInput = {
+    id?: SortOrder
+    user_id?: SortOrder
+    movie_id?: SortOrder
+    recommend?: SortOrder
+    seen?: SortOrder
+  }
+
+  export type ratingMinOrderByAggregateInput = {
+    id?: SortOrder
+    user_id?: SortOrder
+    movie_id?: SortOrder
+    recommend?: SortOrder
+    seen?: SortOrder
+  }
+
+  export type ratingSumOrderByAggregateInput = {
+    id?: SortOrder
+    movie_id?: SortOrder
   }
 
   export type NullableIntFieldUpdateOperationsInput = {

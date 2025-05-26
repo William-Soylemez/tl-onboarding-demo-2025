@@ -8,13 +8,12 @@ export async function GET(request: Request) {
     if (!user_id) {
         return NextResponse.json({ error: 'Invalid parameters' }, { status: 400 });
     }
-    const numericUserId = parseInt(user_id, 10);
 
     const prisma = new PrismaClient();
     try {
-        const result = await prisma.ratings.findMany({
+        const result = await prisma.rating.findMany({
             where: {
-                user_id: numericUserId,
+                user_id,
                 seen: "yes",
                 recommend: "yes"
             }
