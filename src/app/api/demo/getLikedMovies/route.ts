@@ -1,9 +1,12 @@
 import { NextResponse } from 'next/server';
-import { PrismaClient } from '@/generated/prisma'
+import { PrismaClient } from '@/generated/prisma';
+import { auth } from '@clerk/nextjs/server';
 
 export async function GET(request: Request) {
+    await auth.protect();
+
     const { searchParams } = new URL(request.url);
-    const user_id = searchParams.get('user_id');
+    const { userId: user_id } = await auth();
 
     if (!user_id) {
         return NextResponse.json({ error: 'Invalid parameters' }, { status: 400 });

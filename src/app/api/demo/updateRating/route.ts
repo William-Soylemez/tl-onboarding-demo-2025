@@ -1,10 +1,17 @@
 import { NextResponse } from 'next/server';
 import { PrismaClient } from '@/generated/prisma'
-
+import { auth } from '@clerk/nextjs/server';
 
 
 export async function POST(request: Request) {
-    const { user_id, movie_id, recommend, seen } = await request.json();
+    await auth.protect();
+
+    const { userId: user_id } = await auth();
+    if (!user_id) {
+        return NextResponse.json({ error: 'User not authenticated' }, { status: 401 });
+    }
+
+    const { movie_id, recommend, seen } = await request.json();
 
     if (!user_id || !movie_id) {
         return NextResponse.json({ error: 'Invalid parameters' }, { status: 400 });
