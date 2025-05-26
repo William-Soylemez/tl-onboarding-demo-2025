@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MovieIcon from "./MovieIcon";
+import MovieIcon from "../list/[page]/MovieIcon";
 
 type MovieDataType = {
   id: number;
@@ -12,14 +12,12 @@ type Props = {
   params: { page: string }
 };
 
-
-
 export default async function Home({ params }: Props) {
 
   const { page } = await params;
   const numericPage = parseInt(page || "", 10);
 
-  const res = await fetch(`http://localhost:3000/api/list?page=${page}`, {
+  const res = await fetch(`http://localhost:3000/api/demo/getLikedMovies`, {
     next: { revalidate: 60 },
   });
   if (!res.ok) {

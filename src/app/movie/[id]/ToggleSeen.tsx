@@ -7,8 +7,12 @@ import CloseIcon from '@mui/icons-material/Close';
 
 
 const ToggleSeen = (
-  { user_id, movie_id, seen }: { user_id: Number, movie_id: Number, seen: String }
+  { user_id, movie_id, seen }: { user_id: String | null, movie_id: Number, seen: String }
 ) => {
+  if (!user_id) {
+    return null;
+  }
+
   const router = useRouter();
 
   const handleToggleSeen = async () => {
@@ -16,9 +20,10 @@ const ToggleSeen = (
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        // Cookie: cookies().toString(),
+        //         cache: 'no-store',
       },
       body: JSON.stringify({
-        user_id,
         movie_id,
         seen: seen === "yes" ? "no" : "yes",
       }),

@@ -45,7 +45,8 @@ export async function POST(request: Request) {
                 data: {
                     user_id,
                     movie_id,
-                    recommend: recommend ?? "na"
+                    recommend: recommend ?? "na",
+                    seen: seen ?? "no"
                 }
             });
         }

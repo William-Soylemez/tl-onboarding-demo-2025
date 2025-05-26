@@ -1,24 +1,35 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+// import { cookies } from "next/headers";
+import { useAuth } from "@clerk/nextjs";
 
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 
 
 const ToggleSeen = (
-  { user_id, movie_id, recommend }: { user_id: Number, movie_id: Number, recommend: String }
+  { user_id, movie_id, recommend }: { user_id: String | null, movie_id: Number, recommend: String }
 ) => {
   const router = useRouter();
 
+  if (!user_id) {
+    return null;
+  }
+
+  const { getToken } = useAuth();
+
   const handleRecommend = async (newRecommend: String) => {
+    const token = await getToken();
     const res = await fetch("http://localhost:3000/api/demo/updateRating", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json",
+        // "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
       },
+
+
       body: JSON.stringify({
-        user_id,
         movie_id,
         recommend: newRecommend,
       }),

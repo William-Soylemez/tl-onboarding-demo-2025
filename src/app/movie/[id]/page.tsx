@@ -1,6 +1,9 @@
 import Image from "next/image";
 import ToggleSeen from "./ToggleSeen";
 import Recommend from "./Recommend";
+import { cookies } from 'next/headers';
+
+import { auth } from "@clerk/nextjs/server";
 
 type Props = {
   params: { id: string }
@@ -18,20 +21,30 @@ export default async function MoviePage({ params }: Props) {
     next: { revalidate: 60 },
   });
 
-  // console.log(res.text());
-
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
   const data = await res.json();
 
-  const user_id = 1; // Replace with actual user ID
   // Get recommend and seen status
-  const ratingRes = await fetch(`http://localhost:3000/api/demo/getMovieRating?user_id=${user_id}&movie_id=${id}`);
-  if (!ratingRes.ok) {
-    throw new Error("Failed to fetch data");
+  let recommend = "na";
+  let seen = "no";
+  const { userId: user_id, getToken } = await auth();
+  if (user_id) {
+    const token = await getToken();
+    const ratingRes = await fetch(
+      `http://localhost:3000/api/demo/getMovieRating?movie_id=${id}`,
+      {
+        headers: { Authorization: `Bearer ${token}` },
+      }
+    );
+    if (!ratingRes.ok) {
+      throw new Error("Failed to fetch data");
+    }
+    const json = await ratingRes.json();
+    recommend = json.recommend || "na";
+    seen = json.seen || "no";
   }
-  const { recommend, seen } = await ratingRes.json();
 
   return (
     <div>
@@ -50,8 +63,10 @@ export default async function MoviePage({ params }: Props) {
             {data.description}
           </p>
           <div className="flex flex-row items-center justify-between w-full">
-            <ToggleSeen seen={seen} user_id={user_id} movie_id={numericId} />
-            <Recommend recommend={recommend} user_id={user_id} movie_id={numericId} />
+
+            <ToggleSeen user_id={user_id} seen={seen} movie_id={numericId} />
+            <Recommend user_id={user_id} recommend={recommend} movie_id={numericId} />
+
           </div>
         </div>
 

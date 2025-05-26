@@ -14,6 +14,9 @@ export async function GET(request: Request) {
         return NextResponse.json({ error: 'User not authenticated' }, { status: 401 });
     }
 
+    console.log("User ID:", user_id);
+    console.log("Movie ID:", movie_id);
+
     if (!user_id || !movie_id) {
         return NextResponse.json({ error: 'Invalid parameters' }, { status: 400 });
     }
@@ -23,7 +26,7 @@ export async function GET(request: Request) {
     try {
         const result = await prisma.rating.findFirst({
             where: {
-                user_id: "abcd",
+                user_id: user_id,
                 movie_id: numericMovieId
             }
         });
