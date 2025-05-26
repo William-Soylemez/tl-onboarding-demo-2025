@@ -36,10 +36,10 @@ export default function RootLayout({
       <html lang="en">
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
           <header className="flex justify-between items-center p-4 gap-4 h-16 bg-gray-100 shadow-md">
-            <h1 className="text-green-600 text-xl font-bold">JumboBoxd</h1>
+            <Link href="/list/1" className="text-green-600 text-xl font-bold">JumboBoxd</Link>
             <nav className="flex gap-4">
-              <Link href="/list/1" className="text-blue-500 hover:underline">Home</Link>
-              <Link href="/me" className="text-blue-500 hover:underline">Me</Link>
+              {/* <Link  className="text-blue-500 hover:underline">Home</Link> */}
+              {/* <Link href="/me" className="text-blue-500 hover:underline">Me</Link> */}
               <SignedOut>
                 <SignInButton />
                 <SignUpButton />

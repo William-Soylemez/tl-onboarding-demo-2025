@@ -1,7 +1,6 @@
 import Image from "next/image";
 import ToggleSeen from "./ToggleSeen";
 import Recommend from "./Recommend";
-import { cookies } from 'next/headers';
 
 import { auth } from "@clerk/nextjs/server";
 

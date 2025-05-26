@@ -1,5 +1,6 @@
-import Link from "next/link";
 import MovieIcon from "../list/[page]/MovieIcon";
+
+import { auth } from "@clerk/nextjs/server";
 
 type MovieDataType = {
   id: number;
@@ -8,16 +9,9 @@ type MovieDataType = {
   poster: string;
 };
 
-type Props = {
-  params: { page: string }
-};
+export default async function Home() {
 
-export default async function Home({ params }: Props) {
-
-  const { page } = await params;
-  const numericPage = parseInt(page || "", 10);
-
-  const res = await fetch(`http://localhost:3000/api/demo/getLikedMovies`, {
+  const res = await fetch(`http://localhost:3000/api/list?page=${1}`, {
     next: { revalidate: 60 },
   });
   if (!res.ok) {
@@ -25,33 +19,41 @@ export default async function Home({ params }: Props) {
   }
   const data = await res.json();
 
+  const { userId: user_id, getToken } = await auth();
+  if (!user_id) {
+    return (
+      <div className="text-center m-10">
+        <p className="text-2xl">Please sign in to view your liked movies.</p>
+        <p className="text-lg text-gray-600">Your liked movies will appear here.</p>
+      </div>
+    );
+  }
+
+  const token = await getToken();
+  const likedMoviesRes = await fetch(
+    `http://localhost:3000/api/demo/getLikedMovies`,
+    {
+      headers: { Authorization: `Bearer ${token}` },
+    }
+  );
+  if (!likedMoviesRes.ok) {
+    throw new Error("Failed to fetch liked movies");
+  }
+  const likedMovies = await likedMoviesRes.json();
+  console.log("Liked movies:", likedMovies);
+
   return (
     <div>
+      <div className="font-bold text-3xl text-center m-10 text-green-500">
+        My liked movies
+      </div>
       <div className="grid grid-cols-6 gap-10 m-16">
-        {data.map((movie: MovieDataType) => (
+        {likedMovies.map((movie: MovieDataType) => (
           <MovieIcon
             movieData={movie}
             key={movie.id}
           />
         ))}
-      </div>
-      <div className="flex flex-row justify-center">
-        {numericPage > 1 &&
-          <Link
-            className="bg-green-400 text-white font-bold py-2 px-4 rounded m-5 hover:bg-green-500 transition duration-150 w-24 text-center"
-            href={`/list/${numericPage - 1}`}
-          >
-            Previous
-          </Link>
-        }
-        {numericPage < 10 &&
-          <Link
-            className="bg-green-400 text-white font-bold py-2 px-4 rounded m-5 hover:bg-green-500 transition duration-150 w-24 text-center"
-            href={`/list/${parseInt(page) + 1}`}
-          >
-            Next
-          </Link>
-        }
       </div>
     </div >
   );
