@@ -1,5 +1,6 @@
 import Link from "next/link";
 import MovieIcon from "./MovieIcon";
+import { auth } from "@clerk/nextjs/server";
 
 type MovieDataType = {
   id: number;
@@ -32,6 +33,18 @@ export default async function Page({ params }: any) {
   }
   const data = await res.json();
 
+  // Get user liked movies
+  const { userId: user_id, getToken } = await auth();
+  const token = await getToken();
+  const likedMoviesRes = await fetch(
+    `${process.env.NEXT_PUBLIC_URL}/api/demo/getLikedMovies`,
+    {
+      headers: { Authorization: `Bearer ${token}` },
+    }
+  );
+  const likedMovies = await likedMoviesRes.json();
+  console.log("Chat is this working...", likedMovies);
+
   return (
     <div>
       <div className="grid grid-cols-6 gap-10 m-16">
@@ -39,6 +52,7 @@ export default async function Page({ params }: any) {
           <MovieIcon
             movieData={movie}
             key={movie.id}
+            recommend={likedMovies.includes(movie.id)}
           />
         ))}
       </div>
