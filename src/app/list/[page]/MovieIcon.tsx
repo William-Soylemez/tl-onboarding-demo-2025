@@ -8,7 +8,7 @@ type MovieDataType = {
     poster: string;
 };
 
-export default function MovieIcon({ movieData }: { movieData: MovieDataType }) {
+export default function MovieIcon({ movieData, recommend }: { movieData: MovieDataType, recommend?: boolean }) {
     return (
         <Link
             className="flex flex-col bg-slate-300 rounded-sm hover:scale-110 transition duration-150"
@@ -25,6 +25,21 @@ export default function MovieIcon({ movieData }: { movieData: MovieDataType }) {
                 <p className="font-bold">{movieData.title}</p>
                 <p className="text-gray-600">{movieData.year}</p>
             </div>
+            {recommend && (
+                <div
+                    style={{
+                        backgroundColor: "#22c55e",
+                        color: "white",
+                        textAlign: "center",
+                        paddingTop: "0.25rem",
+                        paddingBottom: "0.25rem",
+                        borderBottomLeftRadius: "0.125rem",
+                        borderBottomRightRadius: "0.125rem",
+                    }}
+                >
+                    Recommended
+                </div>
+            )}
         </Link>
     );
 }
